@@ -1,0 +1,45 @@
+$app-lvl_size: 191px;
+$app-lvl-small_size: 153px;
+
+.app-lvl {
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: $app-lvl_size;
+  height: $app-lvl_size;
+}
+.app-lvl-small {
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: $app-lvl-small_size;
+  height: $app-lvl-small_size;
+}
+
+.app-lvl-default {
+  @extend .app-lvl;
+  background-image: url('/assets/images/ui/frames/lvl/default.avif');
+}
+
+.app-lvl-default-small {
+  @extend .app-lvl-small;
+  background-image: url('/assets/images/ui/frames/lvl/default-small.avif');
+}
+
+.app-lvl-boss {
+  @extend .app-lvl;
+  background-image: url('/assets/images/ui/frames/lvl/boss.avif');
+}
+
+.app-lvl-boss-small {
+  @extend .app-lvl-small;
+  background-image: url('/assets/images/ui/frames/lvl/boss-small.avif');
+}
+
+.app-lvl-uniq {
+  @extend .app-lvl;
+  background-image: url('/assets/images/ui/frames/lvl/uniq.avif');
+}
+
+.app-lvl-uniq-small {
+  @extend .app-lvl-small;
+  background-image: url('/assets/images/ui/frames/lvl/uniq-small.avif');
+}

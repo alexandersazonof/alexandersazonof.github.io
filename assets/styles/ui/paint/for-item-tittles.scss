@@ -1,0 +1,43 @@
+$app-paint-item-titles_width: 956px;
+$app-paint-item-titles_height: 286px;
+
+.app-paint-item-tittles-base {
+  background-size: $app-paint-item-titles_width $app-paint-item-titles_height;
+  width: $app-paint-item-titles_width;
+  height: $app-paint-item-titles_height;
+
+  &_incompressible {
+    min-width: $app-paint-item-titles_width;
+    min-height: $app-paint-item-titles_height;
+  }
+}
+
+.app-paint-item-tittles-aquamarine {
+  @extend .app-paint-item-tittles-base;
+  background-image: url('/assets/images/ui/paint/for-item-tittles/aquamarine.png');
+}
+
+.app-paint-item-tittles-blue {
+  @extend .app-paint-item-tittles-base;
+  background-image: url('/assets/images/ui/paint/for-item-tittles/blue.png');
+}
+
+.app-paint-item-tittles-gold {
+  @extend .app-paint-item-tittles-base;
+  background-image: url('/assets/images/ui/paint/for-item-tittles/gold.png');
+}
+
+.app-paint-item-tittles-gray {
+  @extend .app-paint-item-tittles-base;
+  background-image: url('/assets/images/ui/paint/for-item-tittles/gray.png');
+}
+
+.app-paint-item-tittles-green {
+  @extend .app-paint-item-tittles-base;
+  background-image: url('/assets/images/ui/paint/for-item-tittles/green.png');
+}
+
+.app-paint-item-tittles-purple {
+  @extend .app-paint-item-tittles-base;
+  background-image: url('/assets/images/ui/paint/for-item-tittles/purple.png');
+}

@@ -1,0 +1,119 @@
+@use 'variables';
+@use 'colors';
+@use 'ui/buttons/common';
+
+.app-title {
+  font-family: variables.$font-name-header;
+  font-size: variables.$font-size-large;
+  color: colors.$yellow-light;
+  text-align: center;
+  line-height: 0.9;
+}
+
+.app-subtitle {
+  color: colors.$yellow-fire;
+}
+
+.app-input {
+  height: 60px;
+  padding: 0 20px;
+  font-family: variables.$font-name-default;
+  color: inherit;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+
+  &--small {
+    width: 92px;
+    background-image: url('/assets/images/ui/elements/input/small.avif');
+
+    &:disabled {
+      background-image: url('/assets/images/ui/elements/input/small_disabled.avif');
+    }
+  }
+
+  &--medium {
+    width: 154px;
+    background-image: url('/assets/images/ui/elements/input/medium.avif');
+
+    &:disabled {
+      background-image: url('/assets/images/ui/elements/input/medium_disabled.avif');
+    }
+  }
+
+  &--large {
+    width: 295px;
+    background-image: url('/assets/images/ui/elements/input/large.avif');
+
+    &:disabled {
+      background-image: url('/assets/images/ui/elements/input/large_disabled.avif');
+    }
+  }
+
+  &--huge {
+    width: 381px;
+    background-image: url('/assets/images/ui/elements/input/huge.avif');
+
+    &:disabled {
+      background-image: url('/assets/images/ui/elements/input/huge_disabled.avif');
+    }
+  }
+
+  &--nickname {
+    width: 850px;
+    height: 93px;
+    background-image: url('/assets/images/ui/elements/input/nickname.avif');
+
+    &:disabled {
+      background-image: url('/assets/images/ui/elements/input/nickname_disabled.avif');
+    }
+  }
+}
+
+.app-text-warning {
+  color: colors.$yellow-fire;
+}
+
+.app-text-error {
+  color: colors.$red-fire;
+}
+
+.app-text-warning--shadow {
+  text-shadow: 0 0 16px #ff0000;
+}
+
+.app-text-yellow-fire--shadow {
+  text-shadow: 0 0 16px colors.$yellow-fire;
+}
+
+.text-shadow {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.75), 0 0 5px #000000, 3px 3px 4px rgba(0, 0, 0, 0.52);
+}
+
+.text-bar-shadow {
+  text-shadow: 0 0 8px #000000, 0 0 5px #000000, 0 0 5px #000000, 0 0 8px #000000, 0 0 3px #000000, 0 0 2px #000000;
+}
+
+.title-a {
+  @extend .text-shadow;
+
+  font-family: variables.$font-name-header;
+}
+
+.title-b {
+  @extend .text-shadow;
+
+  font-family: variables.$font-name-default;
+}
+
+.text-shadow-positive {
+  text-shadow: 0 0 10px #ff6b00;
+}
+
+.text-shadow-negative {
+  text-shadow: 0 0 10px #ff0000;
+}
+
+.text-speech {
+  color: colors.$speech;
+}

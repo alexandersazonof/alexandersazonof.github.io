@@ -1,0 +1,1118 @@
+{
+  "subgraph": {
+    "info": "Subgraph behind the network {{ subgraphDelay }}",
+    "error": "Subgraph has indexing error!"
+  },
+  "disclaimer-screen": {
+    "title": "Disclaimer",
+    "sub-title": "Acknowledgement of Terms & Conditions of access",
+    "description2": "By using this software, you understand, acknowledge, and accept that Sacra and/or the underlying software are provided on an “as is” and “as available” basis and without warranties or representations of any kind, either expressed or implied. Any use of this open source software released under the BUSL-1.1 license is done at your own risk to the fullest extent permissible, pursuant to applicable law. Any and all liability, as well as all warranties, including any fitness for a particular purpose with respect to Sacra and/or the underlying software and the use thereof, are disclaimed.",
+    "buttons": {
+      "agree": "I understand the risks involved<br/>proceed to the app",
+      "learn-more": "Learn more"
+    }
+  },
+  "start-screen": {
+    "description": "Create your own hero, look for trouble and seek new adventures,<br />rely on strategy or trust in luck: you decide!",
+    "buttons": {
+      "enter-game": "Login",
+      "marketplace": "Marketplace",
+      "swap-coins": "Swap Tokens",
+      "learn-more": "Learn more about game",
+      "top-list": "Top List",
+      "referrals": "Referrals"
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "buttons": {
+      "create-hero": "Create Hero",
+      "inventory": "Inventory",
+      "heroes": "Heroes",
+      "go-to-map": "Go to map",
+      "continue": "Continue",
+      "marketplace": "Marketplace",
+      "top-list": "Top List",
+      "settings": "Settings"
+    }
+  },
+  "hero-screen": {
+    "buttons": {
+      "show-list": "All heroes",
+      "reinforcement": "Reinforcement",
+      "create-hero": "Create Hero",
+      "marketplace": "Marketplace",
+      "trade": "Swap tokens"
+    }
+  },
+  "hero-info": {
+    "buttons": {
+      "level-up": "Level Up",
+      "choose": "Choose",
+      "all-stats": "Show All Hero Stats",
+      "go-to-map": "Go to map",
+      "continue": "Continue"
+    },
+    "status": {
+      "reinforcement": {
+        "title": "In Reinforcement",
+        "desc": "Your hero is staked in reinforcement, temporarily limiting all actions with your hero until you decide to unstake him"
+      },
+      "dunge": {
+        "title": "In Adventure",
+        "desc": "Your hero is currently exploring an adventure, you cannot sell him, stake in reinforcement, or modify equipment"
+      },
+      "rdy": {
+        "title": "Ready to Fight",
+        "desc": "Your hero is available for any actions"
+      }
+    }
+  },
+  "biome-dialog": {
+    "buttons": {
+      "enter": "Enter"
+    }
+  },
+  "dungeon-room": {
+    "title": "Adventures",
+    "no-dungeon-desc": "No adventures, find a new one",
+    "buttons": {
+      "new-adventure": "New Adventure"
+    }
+  },
+  "dungeon-room-rewards-dialog": {
+    "title": "Treasure",
+    "total-amount": "Total amount",
+    "your-part": "Your part",
+    "default-amount": "Default bonus",
+    "buttons": {
+      "start-adventure": "Start Adventure"
+    }
+  },
+  "dungeon-info": {
+    "dungeon-treasury": "Rewards (available after adventure)",
+    "items": "items",
+    "buttons": {
+      "continue-adventure": "Continue adventure",
+      "left-this-area": "Left this area",
+      "start-adventure": "Start adventure",
+      "show-all": "Show all"
+    }
+  },
+  "dungeon-details": {
+    "dungeon-treasury": "Rewards (available after adventure)",
+    "items": "items",
+    "reinforcement-helper-desc": "Will carry a {{ helperDropChance }}% probability of obtaining dropped items when the adventure is completed.",
+    "description": "You can exit by passing through all adventures, by death, or by being deleted",
+    "buttons": {
+      "search-new-troubles": "Search new troubles",
+      "continue-adventure": "Continue adventure",
+      "left-this-area": "Finish this adventure",
+      "show-all": "Show all"
+    }
+  },
+  "dungeon-fight": {
+    "victory": "Victory",
+    "lose": "Lose",
+    "death": "Death",
+    "skills": "Skills",
+    "attacking-item": "Attacking Item",
+    "round": "Round",
+    "end": "End",
+    "race": {
+      "unknown": "Unknown",
+      "human": "Human",
+      "undead": "Undead",
+      "daemon": "Demon",
+      "beast": "Beast"
+    },
+    "buttons": {
+      "battle-history": "Battle History",
+      "accept-your-destiny": "Accept your destiny",
+      "continue-adventure": "Continue adventure",
+      "attacking": "Attacking...",
+      "no-mana": "No mana",
+      "attack": "Attack!",
+      "reinforcement": "Reinforcement"
+    }
+  },
+  "fight-result-dialog": {
+    "title": "Victory!",
+    "dropped": "Dropped",
+    "items": "items",
+    "lose": "Lose",
+    "win": "Win",
+    "no-items": "Nothing of value in there.",
+    "buttons": {
+      "continue-adventure": "Continue adventure"
+    }
+  },
+  "battle-history-dialog": {
+    "title": "Battle History",
+    "round": "Round",
+    "end": "End",
+    "show-every-round-checkbox-label": "Show every round",
+    "battle-history-checkbox-label": "Battle history"
+  },
+  "inventory": {
+    "title": "Inventory",
+    "types": {
+      "all": "All",
+      "equipped": "Equipped"
+    },
+    "classes": {
+      "all": "All",
+      "potions": "Potions",
+      "skills": "Skills",
+      "attack": "Attack"
+    },
+    "sort": {
+      "default": "Default",
+      "rarity": "Rarity",
+      "level": "Level"
+    },
+    "buttons": {
+      "get-naked": "Get Naked"
+    },
+    "disabled": {
+      "desc": "You can’t change your equipment while in the dungeon or reinforcement."
+    }
+  },
+  "dungeon-event": {
+    "start-phrase": "You feel the vision enter yours.<br><br>",
+    "shrine-texts": [
+      "<i>...The recipe for this Mergull dish is quite \"simple\". It is necessary to kill a fat male troll, remove its skin, carefully cut out the skeleton from the flesh, remove excess organs and intestinal contents. Then sprinkle the resulting meat liberally with spices, mix it with fat in equal proportions, sew it into the resulting skin bag and throw it into the swamp until the next winter. Northmen usually make a friendly or funny face out of a troll's face to cheer themselves up after a long wait for this dish...</i>",
+      "<i>...Damn disease! If my father had directly told me that my penis would turn black and fall off, I really would have gone to a damn church, not a brothel! What should I do now...</i>",
+      "<i>...My Lord, the Sacred Ones undoubtedly found out about my activities at the crossroads and down the river and began to bypass these places. I've only managed to hang three people in the last month, and all three were extremely poor. I ask permission to change my position. Please respond as soon as possible...</i>",
+      "<i>...The winter was cold. It was so cold that, one morning, I found my dog and horse dead. They didn't just die, the cold bound them so tightly that they couldn't even fall. Creepy ice statues. I took them out of sight and was able to bury them only at the first thaw...</i>",
+      "<i>...I wish I could find that nigidium again. Only he knew what I needed. I miss that short but bright and fast-paced life...</i>",
+      "<i>...Ha. What do Sacred and stinky kudja have in common? The rope on which they are both hanged...</i>",
+      "<i>...\"Sweet Kiss.\" That's what they call it. Because of the taste on your lips when it gets into your body. The poison of the Sabbah clan does not seem dangerous at first; it does not choke you, does not cause vomiting, does not particularly interfere with breathing. You stay calm the whole time. But everything floats before your eyes, blurs; you lose concentration and your sense of time, stop thinking and only wipe the blood from your nose again and again. To be honest, I do not even know if this poison is lethal, because the killer's knife usually completes the job faster...</i>",
+      "<i>...There was a man with them. With the damn demolders. He lived in their camp, hunted with them, ate human flesh. He said he was able to kill their champion in a fair fight, and they offered him freedom. But he stayed with them. He wanted to meet the Mother, he was preparing for it. His name was Enji or something like that...</i>",
+      "<i>...My mother says I should get married. But I love the sea. And there is no one to f...k with my brain...</i>",
+      "<i>...They don't understand a damn thing. When I was little, people believed that dogs spread the plague. They killed all the dogs. They killed my puppy... Now that the disease is raging again, they blame the birds for everything... People have always been and will always be stupid. Always...</i>",
+      "<i>...I fought both campaigns on Uria. I returned home in the Great Turmoil. The scar on my face inspires respect. But it was received in childhood. When my brother threw a shoe at me...</i>",
+      "<i>...As long as I was alive, no one needed my damn songs! They didn't throw money at me while I was playing them in the square of Brianbour; they didn't invite me to perform in taverns... Now my songs sound from any filthy mouth! And I can't say that I wrote them! But I did...</i>",
+      "<i>...She could have become a worthy student. Body magic is dangerous, I've said it many, many times. You can't change your body if you don't understand what you're doing and how to protect yourself. Her body just couldn't handle it. And now she's dead. Lying there and not moving...</i>",
+      "<i>...This woman wanted to kill me. She really wanted to! She had a huge knife and such a crazy look. I hit her, hit her hard, broke her nose. She was smiling as if she liked it. Damn Northerners with their morals. But it wasn't bad sex...</i>",
+      "<i>...I spat in his face. This made such an impression on him that he could no longer repel the next attack. The pompous jerk was good, but he should have learned how to handle a sword on the street, not at court...</i>",
+      "<i>...She came out of the fire, unharmed and without clothes. Her skin was the color of freshly polished armor. Crossbow bolts smashed against her as if against a stone wall. She tore up several of my soldiers with her bare hands. I hid and survived, but I will never forget the look in her steel eyes...</i>",
+      "<i>...There's nothing scarier than a veteran from the Scarlet Branch. When a mage goes crazy, it's completely f..cked up. It's a good thing they're all dead. I wouldn't want to meet such a psychotic freak somewhere in the woods...</i>",
+      "<i>...I shouldn't have trusted that whore. She smelled of the thieves' guild and the Dark Arts. Easy prey? Yeah, right now! Now we're all going to die...</i>",
+      "<i>...How many of these little temples of the blood? How much Sacred blood has been shed? How many times have they died? How many times have you lost everything you've made? It's not a gift at all. Curse. Purgatory. Hell...</i>",
+      "<i>...Well, sire. We tracked down that bitch after all. I don't even want to give any comments about the complexity of this task. I'll just say that we lost two villages and four detachments of people with all their equipment. Whatever you do at these balls, I beg you, do not look for enemies among the magicians anymore. It's too expensive...</i>",
+      "<i>...Who would have known that this Count only loves the very young? I had to use this trick with fire to get rid of my hair again. Still, what can you do? It’s not often you meet a Count...</i>",
+      "<i>...The storm suddenly subsided. The waves the size of a mountain grew smaller; the sea became calm... But before we could exhale, we saw that the horizon was approaching, literally. And there was nothing behind it. Only the night sky. That was the end. The f..king edge of the world...</i>",
+      "<i>...I woke up in a pile of rotting bodies. A rather unexpected awakening after an almost perfect death at a respectable age in the circle of my family and grandchildren. I was given a second chance, but what should I do if I did well the first time and did everything I wanted...</i>",
+      "<i>...The old law was better. They say that old man Сeсen was dumb as a cork, but persistent. When he told ordinary people about how simple and understandable it was to live in the Empire, they were very surprised at what the feudal lords had arranged and how much they paid in taxes now...</i>",
+      "<i>...A vow of silence. That's what changed me. All spring, summer and autumn, I was silent. I even tried not to answer people by shaking my head. Of course, most of them kept asking. But there were also those who suddenly realized they were being listened to, not interrupted and not asked for anything in return. It was valuable to them. And I learned a lot about people and the world...</i>",
+      "<i>...After the fall of Goragox, Auron has two moons left. Red Zaif and blue Kelsius. It is impossible to predict their appearance, but it is known that Kelsius comes only on cold nights...</i>",
+      "<i>...It wasn't worth my effort, Brinar; oh, it wasn't worth it. That winter ended in forty days, and this one lasted one hundred and twenty-two. One hundred! Twenty! Two! F..cking days, Brinar! The seeds from which I hoped to grow a new kind of beer and which I dragged on the ship from Uria for so long, simply did not sprout. They will not grow on this earth, Brynar. There's too little sun here...</i>",
+      "<i>...On the thousandth day, nothing has changed. People have also gathered in the square, hungry and angry, shouting something. Bandits hired by the aristocrats grapple with them to disperse them... We are tired of the Turmoil and anarchy. Great Schism, send us a new Emperor and let him rule a thousand winters...</i>",
+      "<i>...The word \"Angel\" means \"messenger\". But what kind of message can be delivered with the help of a blood rain? And who was this message from...</i>",
+      "<i>...How creepy it is to read letters that the other me wrote to myself. I feel chained to this crypt where I woke up and where I found these scraps of paper instead of family heirlooms. How many times have I been resurrected? How many lives have I lived? How long will I live? And in the name of what...</i>",
+      "<i>...It was a hard case, Brother Amram. This time, the immortal turned out to be a child. This is not so surprising, and it has happened more than once. The amazing thing was that the immortal girl was accepted in the settlement as if she were a normal waif, and she would not have given herself away by any means if not for the stories told by the children themselves. Just imagine - they let this creature play with their children; and when the children got too old, she just changed company...</i>",
+      "<i>...They consider me a successful trader and keep asking and asking... what is my secret? And my secret is that, for many years, there has been a creature called Sacreds chained in my basement. I bring him red crystals, and he draws from them knowledge as if from books. Usually, it is useless shit, but several times, he has led me to buried treasures. That's why I'm so rich and successful...</i>",
+      "<i>...The blacksmith looked at me like I was crazy when I asked him to add a red crystal to the ore while it was in the smelter. He constantly scolded and demanded extra payment for lost time, but the result struck him to the core. The thin blade, which looked like it would break from one awkward touch, began to bend so that it could be wrapped around the body. And it did not break, it always returned to its shape with a ringing sound. Light, fast and deadly. One day, every noble young man on the streets of major cities will have such a weapon...</i>",
+      "<i>...I shouldn't have taken this order. I paint portraits of children, but not dead ones, damn them! Yes, I understand everything; it's necessary for the sake of memory, so as not to forget the face, but it all looked like some kind of sacrilege. I'll go to the public bath and wash this off...</i>",
+      "<i>...I didn't see them being killed, but the screams were terrible. I still didn't understand whether they were human or not and why they were called immortal... If they die... Two days later, I decided to go there with my friends. The bodies had already been removed and burned, but the blood remained. We saw something similar to precious stones, only red. We got scared and ran away...</i>",
+      "<i>...And I saw a majestic temple with seven seals. And I went down to the bottom of it for three days and three nights. And the subterranean silence was replaced by a low rumble. And I saw the source of an unprecedented power that defied any description...</i>",
+      "<i>...The most brutal fight I remember? Naturally, this was the night after graduation from the officer academy. Three dozen brothers of officers who would be leaving for their posts throughout the vast Empire in the morning gathered together for the last time to have a good drink and some fun. And nowhere is there such vibrant nightlife as in Skeer. Someone found out about a private ball where women were supposed to dress as men and men as women, and everyone thought this idea really fitting and wild for our last night together. But our guide managed to get pretty drunk and took us to the other street where the war sailors were celebrating their dedication... Yeah, they didn't like the men in women's dresses...</i>",
+      "<i>...You, Lord Balba, are the devil of Malmlow, and the damned Kro brother and his ass-wiper. What the hell kind of hereditary knight are you, when you can't kill a hedgehog with your bare ass? I'm shitting on your face. You son of a bitch, you will not have my servants or my lands; we are not afraid of your army; we will fight you on land and water; we will shit and shit on your face again...</i>",
+      "<i>...I hate this f..cking reddish salty sand. It cannot be shaken out of clothes, and it burns the skin, eyes and throat. How people live in this desert and in these trees is a mystery to me...</i>",
+      "<i>...By slowing down the dance inside the substance, you can get cold. Speeding up the dance, you get fire. However, be careful, student, dancing too fast can cause an explosion...</i>",
+      "<i>...The stones of this stronghold are dark and shiny, as if polished. It is unknown where this rock was obtained, but it almost does not crumble and easily breaks a sword or even the shells of siege guns. And this is without any magic. Perhaps this material was mined beyond the Great Sea, or lifted from its bottom... But I am inclined to think that this is one of the gifts of the Schism. It's a pity that those who built Dalda-Dedad did not leave any evidence of where they got this amazing stone...</i>",
+      "<i>...Execute the Dolots brothers. No one can defy the sovereign of this land, rob its citizens and not pay taxes. Even if they were \"sent by the devil himself.\" I want them to hang in the main square until the flesh itself peels off their rotten bones, so that everyone understands who is the boss here...</i>",
+      "<i>...Now I understand why everyone loves mulattoes from the Maiden Belt. They are so sweet and silent, just perfect women...</i>",
+      "<i>...There is no place worse than Frek, the birthplace of Kro. If you want to damn someone, it's better not to damn them to hell, but to Frek...</i>",
+      "<i>...This is the best tournament I've ever seen. The ladies were rooting for the handsome Badald, but he stopped being handsome after meeting with the mace of the northerner’s black knight. Apparently, the beautiful Badald’s penis and balls turned out to be too huge for him to have any prudence left. Well, who would go up against such a ferocious beast with a healthy mind...</i>",
+      "<i>...Three sailors from our crew had their dicks cut off because they somehow looked at some noble girl who was wandering unguarded through the streets of Skopf. Funny. I will bring money home from this voyage, and they are just crying for their dicks...</i>",
+      "<i>...There is no place more lonely than Port Abbadon. For three days, I didn't see any birds or even any f..king squirrels. Only fog, silence, cold, and a faint splash of waves. Why build a port in this wilderness from which you can only sail to the edge of the world... where there is nothing...</i>",
+      "<i>...That's how it happens. There used to be a place where a good man could buy slaves for himself, and now the slaves have rebelled and made this place some kind of hellhole... And now what? They do not work, salt is not extracted, all the shops have closed, and normal people have gone to quieter places. So now they live like poor people without a master...</i>",
+      "<i>...As soon as the rightful prince died and the rulers’ dynasties were interrupted, new princes emerged from all clans and the corners of the country. I don't know how the Military Council convinced all these families not to start a civil war and not to kill each other. The chance that we will choose a new worthy ruler by deeds and words seems to me to be a joke...</i>",
+      "<i>...My general. These monsters do not surrender. And even if by some miracle they manage to capture one of them, they prefer to die at the first opportunity by attacking the guards or committing suicide. We will not be able to defeat them, force them to retreat or drive them away. We will have to exterminate them all to the last, because they will not accept any other fate...</i>",
+      "<i>...And when his last torch went out and he was left alone in the darkness of the stone labyrinth, a voice from the depths suddenly addressed him: You no longer need sight to see, because you have come to where you were needed and where you were expected. Take my strength, for you are worthy and you are not afraid of the darkness, either inside or outside. Take it, and return to the people who feared and despised you, and show my strength, and let them fall to their knees before you, as they were destined to do...</i>",
+      "<i>...And Serdalia said to those kings: \"All who were tyrants, who climbed the tree of power and desired her passionately, all fell and were rejected by her. And only the Emperor could stand strong, because each of us supported him and was a strong support for him. Who are you, and who is He? Cast away your demons, and return the center to our world. Before it's too late...\"</i>"
+    ],
+    "buttons": {
+      "continue": "Continue",
+      "explore": "Explore",
+      "skip": "Skip"
+    }
+  },
+  "dungeon-story": {
+    "completed": "Completed",
+    "failed": "Failed",
+    "loss": "Loss",
+    "buttons": {
+      "exit": "Continue",
+      "confirm": "Confirm",
+      "approve": "Approve",
+      "choose": "Choose",
+      "continue": "Continue"
+    }
+  },
+  "dungeon-treasury-dialog": {
+    "dungeon-treasury": "Dungeon Rewards",
+    "buttons": {
+      "close": "Close"
+    }
+  },
+  "faq-page": {
+    "title": "F.A.Q."
+  },
+  "forge-page": {
+    "title": "Forge",
+    "target": "Target",
+    "catalyst": "Catalyst",
+    "chance": "Chance of success",
+    "get": "Increase positive attributes on",
+    "cost": "The cost is",
+    "available": "available",
+    "desc2": "To augment the item, you need two of the same item. In case of success, you will get an augmented item, and the Catalyst item will be burned. In case of failure, you will lose both your items.",
+    "buttons": {
+      "reset": "Reset",
+      "approve": "Approve",
+      "augment": "Forge",
+      "buy-coins": "Get tokens"
+    }
+  },
+  "forge-result-dialog": {
+    "title": "Forge",
+    "successful": "successful",
+    "unsuccessful": "unsuccessful",
+    "successful-text": "Now your item has improved parameters, you can find it in your inventory.",
+    "unsuccessful-text": "Your item was destroyed. Try again next time.",
+    "augmentation-level": "Augmentation level",
+    "buttons": {
+      "close": "Close"
+    }
+  },
+  "buy-sell-dialog": {
+    "title": {
+      "sell-item": "Sell Item",
+      "buy-item": "Buy Item",
+      "sell-hero": "Sell Hero",
+      "buy-hero": "Buy Hero",
+      "sell-success": "Sell Position created",
+      "buy-success": "Purchase Successful"
+    },
+    "sell-item": "Are you sure you want to sell this item?",
+    "sell-item-success": "Now you just have to wait until your item will be purchased",
+    "buy-item": "Are you sure you want to buy this item?",
+    "buy-item-success": "Now you can find this item in your inventory",
+    "sell-hero": "Are you sure you want to sell this hero?",
+    "sell-hero-success": "Now you just have to wait until your hero will be purchased",
+    "buy-hero": "Are you sure you want to buy this hero?",
+    "buy-hero-success": "Now you can find this hero in your hero list",
+    "level": "Level",
+    "buttons": {
+      "yes": "Yes",
+      "no": "No",
+      "close": "Close"
+    }
+  },
+  "hero-reinforcement": {
+    "title": "Reinforcement",
+    "current-location": "Current location",
+    "rewards-part": "Chance to obtain rewards",
+    "rewards": "Your rewards",
+    "items": "items",
+    "approximated-chance": "Likelihood of being called",
+    "stake-unavailable": "You should have 5+ level and at least 5 life chances.",
+    "desc": "While in reinforcement, your hero can be called for help by other heroes in the fight. You don’t risk anything.<br/>Once a character is staked, fight mode is not available until you unstake your hero.",
+    "desc-stacked": "You will obtain {{fee}}% of the reward tokens and have {{fee}}% chance of acquiring dropped items.<br/>As your share of rewards decreases, your chances of being called to assist in the dungeon increase.",
+    "desc-cant-stack": "You can stake your hero only if your level is higher than 5, hero has full life chances and 3 Skill Items equipped.",
+    "chances": {
+      "zero": "Zero",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "buttons": {
+      "show-all": "Show all",
+      "stake": "Stake",
+      "unstake": "Unstake",
+      "claim-all": "Claim all"
+    }
+  },
+  "reinforcement-dialog": {
+    "title": "Ask for reinforcement",
+    "description": "You will receive help from a randomly assigned hero with a similar level.<br/>The summoned hero will assist you until the end of the dungeon.",
+    "text": "from support hero stats",
+    "text2": "from rewards in case of win",
+    "buttons": {
+      "get-help": "Get Help"
+    }
+  },
+  "hero-stat": {
+    "equipped-items": "Equipped items"
+  },
+  "hero-create": {
+    "title": "Create New Hero",
+    "basic-stats": "Basic stats",
+    "unique-name": "Unique name",
+    "desc": "Before embarking on your journey, select a hero wisely, for your choice will impact every aspect of the game.",
+    "desc2": "Unleash your Sacred from the void. Their twisted fate is now in your hands.",
+    "buy-ready-hero": "Buy Ready Hero",
+    "developed-stats": "Developed stats",
+    "defined-name": "Defined name",
+    "buttons": {
+      "create-hero": "Create Hero",
+      "marketplace": "Buy on Marketplace"
+    }
+  },
+  "hero-generate": {
+    "loading": "Wait a bit more...",
+    "buttons": {
+      "marketplace": "Marketplace",
+      "continue": "Continue"
+    }
+  },
+  "hero-name-dialog": {
+    "name-your": "Name your",
+    "desc": "To complete, give your hero a unique name",
+    "unique-name": "Unique name",
+    "max-symbols": "Max 18 symbols",
+    "latin-letters": "Latin letters only",
+    "hero": "hero",
+    "name-placeholder": "Type your Hero’s name",
+    "desc2": "Type your Hero’s name above",
+    "cost": "The cost to create a hero is ",
+    "balance": "Your current balance is",
+    "referral-desc": "(optional) Enter your referral code and get a reward!",
+    "referral-placeholder": "Type referral code here",
+    "buttons": {
+      "approving": "Approving...",
+      "approve": "Approve",
+      "creating": "Creating",
+      "create": "Create",
+      "buy-coins": "Get tokens"
+    }
+  },
+  "hero-slot-dialog": {
+    "slot": "Slot",
+    "available": "Available",
+    "items": "items",
+    "buttons": {}
+  },
+  "hero-level-up": {
+    "available": "Available",
+    "cost": "The cost for level up is",
+    "buttons": {
+      "assign": "Assign to Level Up",
+      "level-up": "Level Up",
+      "reset": "Reset",
+      "buying": "Buying...",
+      "buy": "Buy"
+    }
+  },
+  "heroes-list": {
+    "my-heroes": "Heroes",
+    "options": {
+      "all": "All",
+      "life": "Life",
+      "mana": "Mana",
+      "experience": "Experience",
+      "life-chances": "Life Chances"
+    }
+  },
+  "marketplace": {
+    "title": "Marketplace",
+    "approve-desc": "You need to approve SACRA token in order to use the marketplace.<br/>An initial deposit will be required for each new transaction, which will be refunded upon the completion of the transaction.",
+    "only-my-positions": "Only my positions",
+    "options": {
+      "default": "Default",
+      "rarity": "Rarity",
+      "durability": "Durability",
+      "price": "Price",
+      "score": "Score"
+    },
+    "button-disabled": {
+      "hero-equipped": "Take off all equipment before selling.",
+      "hero-in-dungeon": "Finish the dungeon before selling.",
+      "hero-staked": "Unstake your hero before selling.",
+      "no-price": "Set a price."
+    },
+    "buttons": {
+      "approve": "Approve",
+      "sell": "Sell",
+      "close": "Close",
+      "buy": "Buy"
+    }
+  },
+  "repair": {
+    "title": "Repair",
+    "target": "Target",
+    "target-durability": "Target durability",
+    "cost": "The cost of repairing is",
+    "desc": "The catalyst will be destroyed!",
+    "desc2": "To repair the item, you need two of the same item. The catalyst item will be burned!",
+    "catalyst": "Catalyst",
+    "catalysts": "Catalysts",
+    "available": "available",
+    "buttons": {
+      "reset": "Reset",
+      "not-enough": "Not enough",
+      "approve": "Approve",
+      "repair-this-item": "Repair this item",
+      "buy-coins": "Get tokens"
+    }
+  },
+  "top-list": {
+    "biome": "Biome"
+  },
+  "item-description-dialog": {
+    "level": "Level",
+    "item-level": "Item Level",
+    "gear-score": "Gear Score",
+    "magic-attack": "Magic attack",
+    "mana-cost": "Mana cost",
+    "add-to-dmg": "Add to dmg",
+    "percent-of-eng": "% of ENG",
+    "impact": "Impact",
+    "one-time-use": "One time use",
+    "hp-restored": "HP restored",
+    "mp-restored": "MP restored",
+    "life-chances-restored": "Life chances restored",
+    "take-off": "Take Off",
+    "equip": "Equip",
+    "use": "Use",
+    "share": "Share",
+    "transfer": "Transfer",
+    "durability": "Durability",
+    "required-stats": "Required stats",
+    "durability-title": "Durability",
+    "durability-desc": "You can use your item after repairing it.",
+    "disabled": {
+      "use": "You have already used the item during this fight. Consumables may be used only once in a battle; defeat the enemy first.",
+      "repair": "Durability is at its maximum."
+    }
+  },
+  "settings-dialog": {
+    "title": "Settings",
+    "music": "Music",
+    "effects": "Effects",
+    "brightness": "Brightness",
+    "contrast": "Contrast",
+    "saturate": "Saturate",
+    "transaction-speed": "Transaction Speed",
+    "transaction-speeds": {
+      "0": "Slow",
+      "1": "Standard",
+      "2": "Fast",
+      "3": "Instant"
+    },
+    "buttons": {
+      "reset": "Reset"
+    }
+  },
+  "bottles-dialog": {
+    "title": "Cure Pouch",
+    "no-items": "No Bottles"
+  },
+  "transfer-dialog": {
+    "title": "Transfer",
+    "address": "Address",
+    "buttons": {
+      "send": "Send"
+    }
+  },
+  "attributes-names": {
+    "strength": "Strength",
+    "dexterity": "Dexterity",
+    "vitality": "Vitality",
+    "energy": "Energy",
+    "damage-min": "Damage min",
+    "damage-max": "Damage max",
+    "damage": "Damage",
+    "attack-rating": "Attack rating",
+    "defense": "Defense",
+    "block-rating": "Block rating",
+    "life": "Life",
+    "mana": "Mana",
+    "fire-res": "Fire res.",
+    "cold-res": "Cold res.",
+    "lightning-res": "Lightning res.",
+    "dmg-against-human": "Dmg. against human",
+    "dmg-against-undead": "Dmg. against undead",
+    "dmg-against-daemon": "Dmg. against demon",
+    "dmg-against-beast": "Dmg. against beast",
+    "def-against-human": "Def. against human",
+    "def-against-undead": "Def. against undead",
+    "def-against-daemon": "Def. against demon",
+    "def-against-beast": "Def. against beast",
+    "life-chances": "Life chances",
+    "magic-find": "Magic find",
+    "destroy-items": "Destroy items",
+    "critical-hit-chance": "Critical hit chance",
+    "melee-dmg": "Melee dmg.",
+    "fire-dmg": "Fire dmg.",
+    "cold-dmg": "Cold dmg.",
+    "lightning-dmg": "Lightning dmg.",
+    "ar-factor": "AR factor",
+    "life-stolen-per-hit": "Life stolen per hit",
+    "mana-after-kill": "Mana after kill",
+    "damage-reduction": "Damage reduction",
+    "stun": "Stun",
+    "burn": "Burn",
+    "freeze": "Freeze",
+    "confuse": "Confuse",
+    "curse": "Curse",
+    "reflect-melee-damage": "Reflect melee damage",
+    "reflect-magic-damage": "Reflect magic damage",
+    "poison": "Poison",
+    "resist-to-statuses": "Resist to statuses",
+    "unknown": "ERROR",
+    "fire": "Fire attack",
+    "cold": "Cold attack",
+    "lightning": "Lightning attack",
+    "chaos": "Chaos attack"
+  },
+  "attributes-factor-description": {
+    "strength": "Percent of Strength added to min and max damage.",
+    "dexterity": "Percent of Dexterity added to min and max damage.",
+    "vitality": "Percent of Vitality added to min and max damage.",
+    "energy": "Percent of Energy added to min and max damage."
+  },
+  "attributes-descriptions": {
+    "strength": "Increases min and max damage.",
+    "dexterity": "Increases defense and attack rating.",
+    "vitality": "Increases life points.",
+    "energy": "Increases mana point",
+    "damage-min": "Minimum melee damage.",
+    "damage-max": "Maximum melee damage.",
+    "damage": "Minimum-Maximum melee damage.",
+    "attack-rating": "Increases chance of hitting the enemy. In a fight, it will be compared with the opponent’s defense.",
+    "defense": "Increases chance of avoiding melee damage. In a fight, it will be compared with the opponent’s attack rating.",
+    "block-rating": "Chance to totally avoid melee damage without checking defense.",
+    "life": "Represents amount of damage that can be handled. Does not regenerate with time.",
+    "mana": "Every skill will consume a bit of mana. Does not regenerate with time.",
+    "fire-resistance": "Percent of reduction to fire damage.",
+    "cold-resistance": "Percent of reduction to cold damage.",
+    "lightning-resistance": "Percent of reduction to lightning damage.",
+    "dmg-against-human": "Increases melee and magic damage to human race.",
+    "dmg-against-undead": "Increases melee and magic damage to undead race.",
+    "dmg-against-daemon": "Increases melee and magic damage to demon race.",
+    "dmg-against-beast": "Increases melee and magic damage to beast race.",
+    "def-against-human": "Decreases melee and magic damage from human race.",
+    "def-against-undead": "Decreases melee and magic damage from undead race.",
+    "def-against-daemon": "Decreases melee and magic damage from demon race.",
+    "def-against-beast": "Decreases melee and magic damage from beast race.",
+    "life-chances": "Ability to avoid permanent death. When the life chance counter reaches zero, a character dies permanently. Life chances can be restored by being very lucky and receiving them as rewards.",
+    "magic-find": "Increases chance to get an item. Does not affect the item quality nor item type.",
+    "destroy-items": "Decreases chance to get an item. Does not affect the item quality or item type.",
+    "critical-hit": "Chance to deal x2 melee damage.",
+    "melee-dmg-factor": "Percent of increasing melee damage.",
+    "fire-dmg-factor": "Percent of increasing fire damage.",
+    "cold-dmg-factor": "Percent of increasing cold damage.",
+    "lightning-dmg-factor": "Percent of increasing lightning damage.",
+    "ar-factor": "Percent of increasing attack rating.",
+    "life-stolen-per-hit": "Percent of melee damage converted to life points.",
+    "mana-after-kill": "Restore mana points after the end of the battle.",
+    "damage-reduction": "Reduce all incoming damage by a given percent. Applied after all other reductions.",
+    "stun": "Chance to stun an opponent. Stunned opponent skips his turn.",
+    "burn": "Chance to burn an opponent. Burned opponent loses half of their defense.",
+    "freeze": "Chance to freeze an opponent. Frozen opponent loses half of their melee damage",
+    "confuse": "Chance to confuse an opponent. Confused opponent loses half of their attack rating.",
+    "curse": "Chance to curse an opponent. Cursed opponent loses half of their element resistance.",
+    "reflect-damage-melee": "Percent of melee damage returned to an opponent.",
+    "reflect-damage-magic": "Percent of magic damage returned to an opponent",
+    "poison": "Chance to poison opponent. Poisoned opponent loses 10% of their current life points.",
+    "resist-to-statuses": "Reduces chance to get any status."
+  },
+  "item-descriptions": {
+    "CONS_1": "It smells of berries and decay. It brings back memories of your grandmother.",
+    "CONS_2": "Magic is concentrated in strange things. Maybe that's why sorcerers are so aloof.",
+    "CONS_3": "A useful plant that makes you strong.",
+    "CONS_4": "Delicious and healthy porridge.",
+    "CONS_17": "The northern barbarians drink it as medicine.",
+    "CONS_18": "Salty, but it smells of freedom and adventure.",
+    "CONS_19": "Poison from the mouth of an ex-wife.",
+    "CONS_20": "Beer, which is better if indulged in when it won’t interfere with anything else you’re trying to do.",
+    "CONS_21": "The most incredible thing you've tried. Dad's Duff recipe.",
+    "HELM_1": "It looks unreliable. And as if someone wiped his ass with this thing a couple of times.",
+    "HELM_6": "This thing smells of secret power and burning. Its previous owner did not need eyes, as she saw much more than ordinary mortals.",
+    "BODY_1": "This jacket was supposed to protect the previous owner, but in fact it caused his drowning.",
+    "GLOVES_1": "These are stained with something shameful and are on the verge of complete disintegration.",
+    "GLOVES_6": "Its previous owner was a known as a butcher, even among the most inveterate bandits of Grimlarn. He destroyed entire villages, but eventually the villagers cut out whatever he had instead of a heart.",
+    "BELT_1": "This stinks. Really, really bad. But it does its job.",
+    "AMULET_1": "The dried dead fingers of an old witch. Give a little strength and a little harm.",
+    "AMULET_2": "A strange stone that seems to help in traveling. Journeys are somehow more cheerful when you wear it.",
+    "AMULET_12": "A beautiful old piece of jewelry from some wealthy family that has lost some of its former luster.",
+    "RING_1": "A beautiful piece, and it costs nothing. Lucky you found it.",
+    "RING_2": "A ring with sharp spikes that can be used for self-defense or self-harm.",
+    "RING_9": "A madman's ring, stained with blood and random murders.",
+    "OFF_1": "A vulgar gesture, for which you might get hit in the face.",
+    "OFF_2": "A creepy doll that smells of old magic and big problems.",
+    "OFF_10": "A huge fish whose strike can stun and be a traumatic experience.",
+    "BOOTS_1": "There are so many holes in these that they are more like sandals than boots.",
+    "BOOTS_5": "Not bad boots for fishing, walking the swamp or death.",
+    "OHW_1": "Not a bad choice if you're going to be somebody's bitch.",
+    "OHW_2": "Unsharpened, rusty, unbalanced. Looks like the cause of your death in the next fight.",
+    "OHW_3": " The old f..cker's weapon. Deals critical damage to cows. Careful, they can take revenge!",
+    "THW_1": "A hefty club, which asks to be lodged in someone's skull. ",
+    "THW_2": "The guard's spear is cheap and can cause problems for any swordsman.",
+    "FEAR": "Basic spell for self-defense. Works equally well on all living beings.",
+    "DEMON_SPEED": "If necessary, this enables the user to move quickly, but this often leads to injury.",
+    "BRUTE_FORCE": "An infusion of power may aid the user in their wanderings, but all changes to the body are dangerous and have consequences.",
+    "SAVAGE_CHARM": "Feel like the victim of a huge muscular woman, who defeats you and will do with you whatever she wants.",
+    "GOLDEN_EYE": "The trained eye of the assassin will tell you how to deliver a deadly strike, and also notice if the victim has something of value.",
+    "SABBAH_POISON": "The secret poison of the Sabbah clan, powerful and reliable.",
+    "SPIT_IN_FACE": "A dirty move can change the course of a fight.",
+    "ONSLAUGHT": "Ignore straight punches to the face and hit hard in response.",
+    "STRONG_BLOCK": "A heavy block that will withstand any strike.",
+    "BEEF_PATTY": "Take off your shirt and play with your muscles so that everyone around you becomes uncomfortable.",
+    "HEAT_STRIKE": "Heat the upper layer of the substance or air. This can be used as a primitive defensive or attacking spell. Enough to cause harm.",
+    "STATIC_DISCHARGE": "Accumulation and discharge of static electricity. Long preparation, but effective impact. Requires close contact.",
+    "CONS_5": "Compote of excellent quality. The chance of dying while consuming is minimal.",
+    "CONS_6": "Bitter and tart. Irritates the nose.",
+    "CONS_7": "It's refreshing and you almost don't feel like puking. Surprisingly.",
+    "CONS_8": "A strange drink, not particularly intoxicating, but makes you really want to punch someone.",
+    "CONS_22": "A strange piece of metal, cold as Endless Darkness.",
+    "HELM_2": "A hood that hid the face of a coward and a traitor, who couldn't make a choice between two sovereigns.",
+    "HELM_7": "The reliable helmet of an old sea wolf.",
+    "BODY_2": "The traces of dog teeth on this leather indicate that you should not betray your overlord.",
+    "BODY_6": "Even knowledge of the Dark Arts did not make the work of Imperial Interrogators safer. The bodies of many of them will never be found.",
+    "GLOVES_2": "The blood of innocent and enslaved people has soaked into these gloves.",
+    "GLOVES_7": "The gloves of a loyal servant who never became a knight.",
+    "BELT_2": "Everything is interconnected in Grimlarn. If you lose your pants at the wrong time, you could lose your life.",
+    "AMULET_3": "Imperial soldier's medal, awarded for valor in the fight against the abominable Kro.",
+    "AMULET_4": "A simple amulet that protects against evil. A useful thing in Grimlarn or any other similar hole.",
+    "AMULET_9": "Bones are the foundation for any empire. The inhabitants of the Myrd were proud of the heritage of their ancestors and revered their sacrifices.",
+    "RING_3": "The ring of a wealthy ruler in life.",
+    "RING_4": "Ring of the lucky hunter. But not so lucky that he avoided becoming another corpse in this forest.",
+    "RING_10": "A talisman against poison from the world of Dark Arts. It doesn't always help.",
+    "OFF_3": "A convenient shield for combat in formation.",
+    "OFF_4": "The evil spirit imprisoned in the book pours out curses and swear words. He is very angry. Think very carefully before opening this book.",
+    "OFF_11": "Dangerous nigidium, feeding on someone else's pain.",
+    "BOOTS_2": "He was born a bastard, and he thought he could rise if he went over people’s heads. He slipped.",
+    "OHW_4": "Not a bad axe to take the belongings from a gawking peasant.",
+    "OHW_5": "Perfect for letting someone's guts out unexpectedly.",
+    "OHW_6": "Weapons of the navy of the Forgotten Empire. Lightweight but will cut deep.",
+    "THW_3": "Stones from deep mines hold echoes of the Schism. At least that's what the prophets of this cult say.",
+    "THW_4": "Mergull's favorite weapon. Some valuable steel, a little more wood, and a lot of fury and primal power.",
+    "THW_5": "Triangular notches on the blade allow you to increase the penetration force. The enemy will give double the price for the head of the owner of such a sword.",
+    "STEEL_SKIN": "This metal skin is quite capable of stopping a sword, but this level of body modification is difficult to maintain.",
+    "LIFEDRAIN": "Don't mess with sneaky wizards. They can harm you and heal themselves at the same time.",
+    "FROSTBITE": "Cool down an opponent's ardor so he can barely move.",
+    "LIKE_A_PUSSY": "Mergull barbarians love to endure the blows of both fate and enemies. \"You hit like a pussy,\" is one of their sayings.",
+    "RAGE": "Primal bestial fury is a kind of natural \"gift\" of cruel northerners.",
+    "DEAD_STRIKE": "Finish off an enemy with one hit. Or die trying.",
+    "FIRM_HAND": "After years of practicing the Dark Arts, the hand won't waver.",
+    "JUSTICE": "Every enemy deserves just retribution. Right in the face.",
+    "STEP_BACK": "Retreat Retreat and strike unexpectedly.",
+    "PATIENCE": "Pain and hardship will pass. You just need to be patient.",
+    "TIME_AND_EXPERIENCE": "Time and pain are the best teachers. And you’ve had many lessons.",
+    "MELT": "Extreme concentration can make heat a really dangerous and destructive force.",
+    "ICE_SHARD": "The mage will never be unarmed. They will be able to freeze water from the air and use it as a weapon.",
+    "CONS_9": "Gives strength to endure further blows from both fate and bad guys.",
+    "CONS_10": "As with piss for the lost wanderer in the desert, it's not the best drink you'll ever taste.",
+    "CONS_11": "A drink made to ensure your opponent or sexual partner cannot escape you.",
+    "CONS_12": "A slimy mass of something not very pleasant. Intriguingly.",
+    "CONS_23": "Cold crystals, unpleasantly cool the skin.",
+    "CONS_24": "A wooden tablet inscribed with incomprehensible runes. It makes a funny sound when you can crack it.",
+    "HELM_3": "A still warm and durable hood. It’s old, but immersed in the quagmire, has retained its qualities.",
+    "HELM_8": "The mask of a chain dog of one of the local feudal lords. A terrible life, a terrible end.",
+    "BODY_3": "Heavy and dense leather that protects the wearer well from the adversities of this cruel world.",
+    "BODY_7": "Made by a forest witch in the latest fashion of curses and human sacrifices. Not to say that it is pleasant to the touch.",
+    "GLOVES_3": "Red sand and salt are clogged into the folds of the leather. Their past owner has seen many amazing places.",
+    "GLOVES_8": "Gloves that have seen the insides of many people. More of a weapon than a defense.",
+    "BELT_3": "It looks pretentious. This may attract excessive attention toward you.",
+    "AMULET_5": "The mountain people are strong and tenacious. But they have strange fashions.",
+    "AMULET_6": "An ancient evil from another world. It seems to move of its own volition sometimes.",
+    "AMULET_10": "According to local beliefs, it brings happiness. Hairy.",
+    "AMULET_11": "A gorgeous flower with a strong smell.",
+    "RING_5": "A ring from the criminal world of the Dark Arts. Contains poison.",
+    "RING_6": "Heavy and massive. Once belonged to a strong man who performed several great feats in this area.",
+    "OFF_5": "Even a small shield in the right hands can cause problems and turn an opponent's attack against hims.",
+    "OFF_6": "A sharp knife with chipped edges, generously smeared with poison.",
+    "BOOTS_3": "The previous owner took care of these boots, which are made of fine and thick leather. But the distances that his feet covered were too great.",
+    "BOOTS_6": "The local sovereign's bodyguard was an experienced warrior. His boots were light and did not slip on the mud. With this ability alone, he won many duels in these distant lands.",
+    "OHW_7": "Heavy sword of northern barbarians. Usually they prefer something even heavier.",
+    "OHW_8": " In their work, the adepts of the Black Branch had to rely on the power of the flame. Only that can protect from the cold of the infinite cosmos and what can come from it.",
+    "OHW_9": "The sword of a promising young man from a wealthy family. It is a pity that, after the collapse of the Empire, the life of the feudal lords became dangerous.",
+    "OHW_12": "The elegant sword of the Straban prince. A good weapon that has only been used a couple of times.",
+    "OHW_13": "It looks like a piece of blacksmithing art. The brand of the Iron Lady.",
+    "OHW_14": "A cursed weapon to fight what cannot be defeated.",
+    "THW_6": "The massive axe of the leader of the northern tribe. It can cut down a horse if the wielder has enough strength.",
+    "THW_7": "Once owned by a battlemage of the Scarlet Branch. A rarity. All the battle mages died shortly before the Moonfall.",
+    "THW_10": "Skilled swordsmen-duelists were valued by the clans of followers of the Dark Arts as assassins, bodyguards and elite soldiers. Not everyone can learn to handle such weapons well.",
+    "PARALYZE": "Squeeze the victim's muscles and do what you want with her.",
+    "GUIDING_LIGHT": "Light will help you find your way. Or something more useful.",
+    "GUT_PUNCH": "Great and fearless, invincible and legendary. Everyone will fall from this punch.",
+    "LAST_DANCE": "Dance with death, hoping to deliver the final strike and stay on your feet.",
+    "I_SURVIVE": "You've been through a lot, you'll get through this too.",
+    "ARMOR_OF_FAITH": "Imperial knights believed their armor was as strong as their faith.",
+    "THUNDERBOLT": "Lightning control is difficult even for experienced magicians, but the result is worth it.",
+    "HELM_4": "Heavy, rusty, but strong helmet. But the wearer’s vision is obscured.",
+    "HELM_5": "The heavy helmet of an old gladiator. For a while, he served as the leader of a local gang until the swamp swallowed them up. It shows traces of rust and repair.",
+    "BODY_4": "It will not be easy to escape from the dangers of the swamp in such heavy armor. The previous owner discovered this, to his detriment.",
+    "BODY_5": "The Empire is almost forgotten, but this thick piece of strong metal will not rot for a long time. It served as a symbol of intimidation long after the Moonfall.",
+    "GLOVES_4": "The coward who wore these heavy gloves never even tested them in combat.",
+    "GLOVES_5": "From a distance, they look like an adornment. But in fact, they are designed for fighting at dangerously close quarters. Excellent concealed-carry armor.",
+    "BELT_4": "The great belt of the Forgotten Empire. Beautiful and titanic.",
+    "AMULET_7": "The insignia of brave mercenaries and fighters.",
+    "AMULET_8": "Protective amulet of the Black Branch adepts. Do not underestimate these guardians of dangerous secrets; they know a lot, including how to inflict pain.",
+    "RING_7": "Even during the time of the Forgotten Empire, Grimlarn was difficult to get to. But the Imperial heralds were not afraid of any difficulties and conveyed the Imperial decrees to the most remote territories in a timely manner.",
+    "RING_8": "A receptacle of the power of a proud free mage. They could not force him to serve.",
+    "OFF_7": "The heavy shield of the northern barbarians. Provides good protection without loss of mobility. So heavy that it is quite possible to knock someone out with it.",
+    "OFF_8": "A dagger to block attacks and throw an opponent off balance. Requires a certain skill.",
+    "OFF_9": "A charmed crystal in the shape of a skull. It is as cold as the grave ",
+    "BOOTS_4": "Heavy armor perfectly protects the leg from any threats, but quickly collects water and dirt. This could be a problem.",
+    "BOOTS_7": "Heavy boots that have broken a lot of skulls. Ancient rust, dried blood and a bad aura.",
+    "OHW_10": "The weapon of a free mage. It smells pleasantly of the superiority of magic and burning flesh.",
+    "OHW_11": "Penetrates armor and heads equally well. Too heavy for one hand.",
+    "THW_8": "Reliable and trouble-free, honorable and legendary. The choice of a skilled and strong warrior who is not going to die first.",
+    "THW_9": "Not every man has the strength to use this death machine. Punches through everything except the failures of private life.",
+    "CONS_13": "When a man is drunk, he does not fear anything.",
+    "CONS_14": "Treats colds and unrequited love.",
+    "CONS_15": "Increases strength at the cost of a lingering unpleasant taste.",
+    "CONS_16": "Old age takes away strength, but experience helps to overcome difficulties.",
+    "REFLECTION": "An experienced magician will direct the power of the enemy's attacks against the enemy himself.",
+    "SCARLET_BRANCH_ADEPT": "The adepts of the Scarlet Branch were once masters of battle magic.",
+    "ANATHEMA": "An attack on the subtle body of a creature that destroys its essence.",
+    "GAINTS_BLOOD": "Mergullians say about such strong ones - \"The blood of giants flows through them.\"",
+    "BACKSTAB": "A skilled swordsman can force an opponent to turn his back.",
+    "VETERAN_CONFIDENCE": "Battle-hardened veterans can endure a lot.",
+    "LIVE_FORTRESS": "Long workouts and interesting life experiences have made your body a real fortress.",
+    "COLD_SHOULDER": "An experienced mage can stop the movement of molecules, not only of the outer layer of the substance, but also inside. This can seriously harm any organism.",
+    "ERASE": "Chaos magic is extremely complex and rarely succeeds, even when wielded by legendary wizards. But it can rewrite reality. Literally."
+  },
+  "biomes": {
+    "biome-unknown": {
+      "title": "Unknown biome"
+    },
+    "biome-1": {
+      "title": "Grimlarn Passage",
+      "description": "Dense thickets that were once part of an Ancient Forest. Now only tough people who are not afraid of monsters and bandits can survive here.",
+      "bossName": "Infected Spirit of the Forest",
+      "bossDescription": "You hear heavy footsteps and the sound of something breathing and moaning in the woods near Lof-Blaid. It’s probably just a big raccoon."
+    },
+    "biome-2": {
+      "title": "Grimlarn",
+      "description": "Impenetrable forests and swamps, there is nothing here but desolation and a bad atmosphere.",
+      "bossName": "Funh",
+      "bossDescription": "You can't keep warm, and it seems that someone is watching you from afar."
+    },
+    "biome-3": {
+      "title": "Way of the Drowned",
+      "description": "Even in pre-Imperial times, the local residents preferred to drown criminals in the swamp, believing that the quagmire could contain any evil. The ancient bodies of the unfortunate, who are almost untouched by decomposition, sometimes pop up, only confirming this belief.",
+      "bossName": "Hungry Brood",
+      "bossDescription": "You’ve grown accustomed to the swamp’s odor, and it seems nothing can surprise you anymore. Or can it?"
+    },
+    "biome-4": {
+      "title": "Forbidden Swamp",
+      "description": "There are many places left in the Myrd that man could not conquer. If you haven't met people on your journey for a long time, then you've probably come so far that there's simply no place for people here.",
+      "bossName": "Mother Miolania",
+      "bossDescription": "You need to find a way out of these swamps."
+    }
+  },
+  "dungeon-names": {
+    "BIOME_1_ALIVE_AGAIN_1": "Alive Again",
+    "BIOME_1_DEPTHS_OF_THE_FOREST_2": "Depths of the Forest",
+    "BIOME_1_LOF_BLAID_3": "Lof-Blaid",
+    "BIOME_1_OUTSKIRTS_OF_THE_CITY_4": "Outskirts of the City",
+    "BIOME_1_DESPERATION_5": "Desperation",
+    "BIOME_1_NIGHT_FOREST_6": "Night Forest",
+    "BIOME_1_ANOTHER_DAY_7": "Another Day",
+    "BIOME_1_PILGRIMAGE_8": "Pilgrimage",
+    "BIOME_1_THIS_IS_RIDICULOUS_9": "This is Ridiculous!",
+    "BIOME_1_BLOOD_TEARS_10": "Blood Tears",
+    "BIOME_1_DANGEROUS_TRAILS_11": "Dangerous Trails",
+    "BIOME_1_GRIMLARNS_HOSPITALITY_12": "Grimlarn’s Hospitality",
+    "BIOME_1_FORGOTTEN_LAND_13": "Forgotten Lands",
+    "BIOME_1_SACRA_HUNT_14": "Sacra Hunt",
+    "BIOME_1_IN_THE_WILD_15": "In the Wild",
+    "BIOME_1_ABANDONED_TRACT_16": "Abandoned Tract",
+    "BIOME_1_TERRITORY_OF_BANDITS_17": "Territory of Bandits",
+    "BIOME_1_BURNED_VILLAGES_18": "Burned Villages",
+    "BIOME_1_HAMMERGINA_119": "Hammergina",
+    "BIOME_2_DEPTHS_OF_THE_FOREST_2": "Depths of the Forest",
+    "BIOME_2_LOF_BLAID_3": "Lof-Blaid",
+    "BIOME_2_OUTSKIRTS_OF_THE_CITY_4": "Outskirts of the City ",
+    "BIOME_2_DESPERATION_5": "Desperation",
+    "BIOME_2_NIGHT_FOREST_6": "Night Forest",
+    "BIOME_2_ANOTHER_DAY_7": "Another Day",
+    "BIOME_2_PILGRIMAGE_8": "Pilgrimage",
+    "BIOME_2_THIS_IS_RIDICULOUS_9": "This is Ridiculous!",
+    "BIOME_2_BLOOD_TEARS_10": "Blood Tears",
+    "BIOME_2_DANGEROUS_TRAILS_11": "Dangerous Trails",
+    "BIOME_2_GRIMLARNS_HOSPITALITY_12": "Grimlarn’s Hospitality",
+    "BIOME_2_FORGOTTEN_LAND_13": "Forgotten Lands",
+    "BIOME_2_SACRA_HUNT_14": "Sacra Hunt",
+    "BIOME_2_ABANDONED_TRACT_16": "Abandoned Tract",
+    "BIOME_2_TERRITORY_OF_BANDITS_17": "Territory of Bandits",
+    "BIOME_2_BURNED_VILLAGES_18": "Burned Villages",
+    "BIOME_3_WAYS_OF_THE_DROWNED": "Ways of the Drowned",
+    "BIOME_3_TRAPS_ARE_EVERYWHERE": "Traps are Everywhere",
+    "BIOME_3_FEED_THE_MOTHER": "Feed the Mother",
+    "BIOME_3_GREAT_EXODUS": "Great Exodus",
+    "BIOME_3_LAST_SPARKS": "Last Sparks",
+    "BIOME_3_GROVE_OF_GIANTS": "Grove of Giants",
+    "BIOME_3_CREEPY_PLACE": "Creepy Place",
+    "BIOME_3_WHAT_DOES_THE_THICK_FOG_HIDE": "What Does the Thick Fog Hide?",
+    "BIOME_3_ITS_GETTING_COLDER": "It's Getting Colder",
+    "BIOME_3_FORGOTTEN_FAITH": "Forgotten Faith"
+  },
+  "action-names": {
+    "dealt": "dealt",
+    "reflected": "reflected",
+    "consumed": "consumed",
+    "was-stunned": "was stunned",
+    "was-set-on-fire": "was set on fire",
+    "missed": "missed",
+    "was-frozen": "was frozen",
+    "was-confused": "was confused",
+    "was-cursed": "was cursed",
+    "was-poisoned": "was poisoned",
+    "mana": "mana",
+    "poison-damage": "poison damage",
+    "poison_damage": "poison damage",
+    "damage": "damage",
+    "miss": "miss",
+    "blocked": "hit blocked",
+    "critical": "critical damage",
+    "phys": "physical",
+    "cold": "cold",
+    "fire": "fire",
+    "lighting": "lighting",
+    "chaos": "chaos",
+    "poison": "poison",
+    "retaliate": "retaliate",
+    "mana_consumed": "mana consumed",
+    "stun": "stun",
+    "burn": "burn",
+    "freeze": "freeze",
+    "confuse": "confuse",
+    "curse": "curse"
+  },
+  "action-descriptions": {
+    "damage": "Attack that inflicts damage on the opponent.",
+    "poison_damage": "Chance to poison opponent. Poisoned opponent loses 10% of current life points.",
+    "miss": "Failed attack that results in no damage to the opponent.",
+    "phys": "Physical damage.",
+    "cold": "Cold damage.",
+    "fire": "Fire damage.",
+    "lighting": "Lightning damage",
+    "chaos": "Chaotic unpredictable damage",
+    "poison": "Chance to poison opponent. Poisoned opponent loses 10% of current life points.",
+    "retaliate": "Chance to return damage to an opponent.",
+    "mana_consumed": "Every skill will consume a bit of mana. Does not regenerate with time",
+    "stun": "Chance to stun an opponent. Stunned opponent skips his turn.",
+    "burn": "Chance to burn an opponent. Burned opponent loses half of their defense",
+    "freeze": "Chance to freeze an opponent. Frozen opponent loses half of their melee damage",
+    "confuse": "Chance to confuse an opponent. Confused opponent loses half of their attack rating.",
+    "curse": "Chance to curse an opponent. Cursed opponent loses half of their element resistance."
+  },
+  "heroes-classes": {
+    "unknown": "Unknown",
+    "all": "All",
+    "thrall": "Thrall",
+    "savage": "Savage",
+    "mage": "Mage",
+    "assassin": "Assassin",
+    "ghost": "Ghost",
+    "hammergina": "Hammergina"
+  },
+  "heroes-classes-description": {
+    "thrall": "A runaway thrall, deprived of his tongue by one of his cruel masters. In a foreign country, he was falsely accused of murdering a child. Unable to say a word in his defense, he was tied up and thrown into a swamp, where he got stuck, bound by a curse.",
+    "savage": "After the death of her parents at the hands of violent neighbors, she, still quite young, went to the Icy Wastelands to find herself or to perish. The battles she lost left terrible scars on her body and nurtured in her a violent temper and a hatred of people. After earning herself a bad reputation (even for the North) and having made a whole legion of blood enemies, she was forced to flee to distant lands. The Angel's gifts caught her at sea. Devoid of fear after her previous misadventures, she did not hide from the blood rain. She was the only one to survive the long voyage and once again set foot on land, after a mutiny left the ship crewless",
+    "mage": "She was born into a wealthy family, but could not live the life of an aristocrat. After the manifestation of her magical gift, her parents rejected her and sold her to the sorcerers of the Black Branch. A student with a difficult personality, she caused a lot of mischief, for which she was sent for re-education in the White Branch. Just before the Moonfall, the unfortunate sorceress got on the wrong side of some dangerous people, lost her eyes, and would have died if the Sacra's Curse had not given her a chance to take revenge and continue on the difficult path of a magician in this harsh and alienated world.",
+    "assassin": "Like all members of the Sabbah clan, he has worn many disguises in his life. He was a slave to the cannibal master, a thief of works of art and other curiosities, a soldier in the army of one of the kings, a free trader in a foreign land, a concubine to the Pirate Queen, and even a prisoner in the Balheim mine. There was nothing he would not do to take a life that had been paid for. After the Crimson Eclipse, when blood flowed like a river and murders became so commonplace that it was ridiculous to take money for them, he, a servant of the Goddess of Death, received wealth such as he had never even dreamed of.",
+    "ghost": "A faithful servant of a terrifying master, who was supposed to deliver an important message, but fell victim to the forests of Grimlarn. Fear and guilt before his master turned this unfortunate man into a restless ghost who will never be able to find a way out of the forest and complete his mission.",
+    "hammergina": "Like many of Straban's vassals, she took an oath to find the murderer of the king and punish her. Her journey has taken her far from home, into the wild lands of Grimlarn. She has buried all her friends, but will not retreat from her mission."
+  },
+  "item-type-names": {
+    "all": "All",
+    "no_slot": "Potions",
+    "head": "Head",
+    "body": "Body",
+    "gloves": "Gloves",
+    "belt": "Belt",
+    "amulet": "Amulet",
+    "ring": "Ring",
+    "off_hand": "Off hand",
+    "boots": "Boots",
+    "one_hand": "One hand",
+    "two_hand": "Two hand",
+    "skill": "Skill"
+  },
+  "item-rarity-name": {
+    "normal": "Normal",
+    "magic": "Magic",
+    "rare": "Rare",
+    "set": "Set",
+    "unique": "Unique"
+  },
+  "dungeons-descriptions": {
+    "ALIVE_AGAIN_1": "You wake up in a dense forest and don't remember how you ended up here.",
+    "DEPTHS_OF_THE_FOREST_2": "The Ancient Forest is much older than the Empire and holds many secrets.",
+    "LOF_BLAID_3": "A small town in the heart of the forest.",
+    "OUTSKIRTS_OF_THE_CITY_4": "The outskirts of Lof-Blaid give a deceptive sense of security.",
+    "DESPERATION_5": "Sometimes these remote places inspire a sense of hopelessness.",
+    "NIGHT_FOREST_6": "You are looking for death in the dark.",
+    "ANOTHER_DAY_7": "You survived yesterday and there is hope that you will survive again today!",
+    "PILGRIMAGE_8": "A lot of desperate people embark on a journey to these places.",
+    "THIS_IS_RIDICULOUS_9": "Sometimes there are so many troubles and so much death around that it makes you laugh.",
+    "BLOOD_TEARS_10": "More bloodstains. A bad sign.",
+    "DANGEROUS_TRAILS_11": "Where will this path lead you?",
+    "GRIMLARNS_HOSPITALITY_12": "You are fed up with the local hospitality.",
+    "FORGOTTEN_LAND_13": "Grimlarn has been cut off from other regions of the Forgotten Empire for a very long time and is dying out.",
+    "SACRA_HUNT_14": "The search for answers leads to bad places.",
+    "IN_THE_WILD_15": "The wildlife is beautiful, but harsh.",
+    "ABANDONED_TRACT_16": "Once, the Imperial tract connected Grimlarn with the rest of the Empire.",
+    "TERRITORY_OF_BANDITS_17": "Bandits and their camps are everywhere, as if there are no other jobs for people to do here.",
+    "BURNED_VILLAGES_18": "Fires are some kind of local attraction.",
+    "DANCING_WITH_DEATH_19": "",
+    "LOST_BOY_20": "If you want to live in a better world, start making it better around you.",
+    "WAYS_OF_THE_DROWNED": "The bodies of murderers, traitors or rapists, executed according to local custom, are slow to decompose in the swamp mud.",
+    "TRAPS_ARE_EVERYWHERE": "The ubiquitous death traps make this swamp even more inhospitable.",
+    "FEED_THE_MOTHER": "Locals worship the mysterious Mother and offer her sacrifices.",
+    "GREAT_EXODUS": "More and more people are trying to move closer to civilization from these wild places.",
+    "LAST_SPARKS": "The swamp and its inhabitants are devouring the last human settlements.",
+    "GROVE_OF_GAINTS": "Huge trees as high as the sky used to reign here.",
+    "CREEPY_PLACE": "You feel the sinister presence of an evil otherworldly force here.",
+    "WHAT_DOES_THE_THICK_FOG_HIDE": "A deep fog has enveloped the swamps, and you can’t see anything beyond arm's length.",
+    "ITS_GETTING_COLDER": "It's getting colder, and a crust of ice covers the swamp.",
+    "FORGOTTEN_FAITH": "Even the ancient temples of the forbidden underground kingdom have fallen prey to the swamp.",
+    "LONG_WALK": "The swamp is not the best place for walking and tourism.",
+    "LIFE_ROAD": "The flow of refugees from these places is increasing every winter.",
+    "THREAT": "There is no power left in these places to stop the threat of carnivorous hunters, who were once expelled from the Forgotten Empire.",
+    "BONES": "Swamps hold memories of more terrible times and monsters.",
+    "ATTRACTIONS_OF_THE_ONALPHOE": "The nauseating smell and repulsive appearance are the most memorable local attractions.",
+    "GLOW": "Strange life forms wake up at night.",
+    "A_DAY_FULL_OF_HOPE": "Sometimes swamps can be beautiful, but they are still f..cking deadly.",
+    "CULT": "Sinister elemental forces are another neighbor of the people in these swamps.",
+    "FORMER_GREATNESS": "The ruins of former greatness are drowned in a swamp.",
+    "SPIDER_SEASON": "Disgusting cobwebs everywhere.",
+    "UNPLEASANT_BUZZING": "Loud low buzzing is a sign of big insects and big problems."
+  },
+  "monster-description": {
+    "infected_spirit_of_the_forest": "The mighty guardian of the Ancient Forest, weakened by each felled tree. His body became home to the terrible ”necroverm” worm. Hatred of people destroying his Forest and love for their flesh are intertwined in this creature, which can no longer be considered either alive or dead. Now he is not a guardian, but a hunter and an avenger, from whom it will not be easy to escape.",
+    "rebellious_peasant": "Tired of paying taxes to several rival suzerains at once and surviving on barren and meager land, many peasants leave their villages in search of a better life or become bandits even worse than the local rulers.",
+    "tough_deserter": "A meager and infrequent salary often ceases to attract soldiers, and they try to earn a living independently. Exactly the way they were taught – with a knife, a rope and an axe.",
+    "bloodthirsty_madman": "Hard times give birth not only to strong people, but also to madmen, a meeting with whom does not bode well.",
+    "ferocious_wolfs": "There are many creepy monsters living in the vicinity of Grimlarn, but do not underestimate the packs of wild wolves and feral dogs. They can cause a lot of problems for an inexperienced traveler.",
+    "drunk_crossbowman": "Chasing careless travelers or merchants with an axe and a sword ceases to be fun with age. Older bandits with less healthy knees prefer crossbows.",
+    "vile_serpent": "A vile abomination, miraculously preserved from the time of the Ancient Forest. The bigger it is, the more problems you have.",
+    "the_man_eating_bear": "Local bears are large and aggressive, but prefer weaker prey. Humans, for example.",
+    "bandit_crowd": "Robberies and murders are hard jobs that are easier to accomplish with a close-knit group of friends. Not very honest, but very effective.",
+    "hangmans_patrol": "Unpleasant guys in masks who are trying to kill immortals and anyone who cannot justify themselves.",
+    "midnighter": "A mythical creature that scares children, but adults do not believe in it. Because no one will survive this meeting in reality and no one will live to tell the tale. Deadly and beautiful, she can only be found in the brief moment of midnight in a dark forest.",
+    "forest_chort": "A furry monster from an Ancient Forest. Humans are not their typical diet, but sometimes serve to satisfy a variety of needs in desperate times.",
+    "bloodcurdling_wolfs": "There are many creepy monsters living in the vicinity of Grimlarn, but do not underestimate the packs of wild wolves and feral dogs. They can cause a lot of problems to an inexperienced traveler.",
+    "somber_hangman": "Hangmen are not just vigilantes who blame the Sacreds for all the troubles of the country. These are dangerous bandits, who do not shy away from robberies and murders of ordinary mortals. After the collapse of the Empire, there are more and more such unpleasant people on the roads and in the gloomy forests.",
+    "thrall_hunter": "Runaway thralls have nothing to lose, and they do not shy away from hiding in places where an ordinary traveler would not dare to look. The dangerous work of catching them is well paid, and the difference between a runaway slave and poor people in worn clothing is not always obvious to the eye.",
+    "wilded_anchorite": "Only a fierce and cruel man will seek salvation from his troubles or pursuers in the depths of an Ancient Forest. A cold mind and unpleasant life experience make them much more dangerous predators than ordinary animals. Those who underestimate them become their prey.",
+    "cheerful_hangman": "Hangmen blame Sacreds for all the disasters of the Myrd. Killing immortals is a tedious task, but some people really like it.",
+    "forest_shaman": "Generations after the fall of the Forgotten Empire, people are drawn to shamans again. They understand the Forest and the monsters inhabiting it, they have real strength and can point the way in these difficult times.",
+    "filthy_willy": "It is unknown what kind of life Filthy Willy lived, but now he is the silent leader of a motley gang from the forests of Grimlarn. He is a bit extravagant and probably dreamed of becoming a knight rider.",
+    "ruins_keeper": "A warrior who made a sacred vow to keep the forbidden underground kingdom safe from unworthy violators.",
+    "straban_douchebags_avengers": "Some morons who are hunting for a sweet red bun.",
+    "funh": "Even the inhabitants of the Ancient Forest do not know what kind of monster this is and where it came from. It is better not to get in his way, because Funh is never full, and does not recognize anything except his hunger. Magic chains and powerful runes once held this monster, but he turned out to be too strong for them. Who captured him and why, and who guarded and held him, will forever remain a mystery. All of them became the prey of Funh.",
+    "demolder_warrior": "Terrible creatures that once served a Forgotten Empire. They have found a new faith and a haven among the remote and forbidden swamps of Grimlarn, but still hunger for human flesh.",
+    "demolder_sergeant": "The sturdy veterans of the last companies of the Empire bear the terrible scars of the curved blades of the Kro and the heretical magic of the kromags. Neither time, nor terrible wounds, nor the betrayal of the Emperor could kill them.",
+    "demolder_bowman": "Demolders prefer to fight in honest melee, and only those who are guilty among them and have sunk to the very bottom join the ranks of archers or other specialists necessary in the war. Anger at their position makes these poor bastards excellent and merciless killers.",
+    "rune_priest": "Very rarely, a magical gift was manifested in the demolders. No imperial school would accept such creatures, and therefore they studied independently, adopting knowledge from captured shamans and sorcerers and not disdaining even the heretical teachings of the kromags. The magic of the Rune Priests is mysterious, but it is based on the worship of the Emperor and the creation of miracles in his honor. This is the only reason these God-abominable creatures were not destroyed immediately.",
+    "demolder_headbringer": "Elite units of demolders, scouts and mage hunters. The war has so permeated their already harsh nature that they do not even realize where they are now and how much time has passed since the beginning of their campaign. Every time they leave their shelter, they must bring back at least one enemy's head.",
+    "ancient_serpent": "A vile abomination, miraculously preserved from the time of the Ancient Forest. It's so big that it can eat your ass whole.",
+    "rune_king": "Rune Priests possessed intelligence and knowledge incomprehensible to a simple demolder; they were the only ones who saw the truth. After the betrayal, they tried to destroy the cult that brought so much trouble to their people, and were going to lead the demolders to a bright future themselves. But those born to serve never bowed to those born to lead, no matter how much they considered themselves kings.",
+    "chaser": "A vengeful psychopath who is stalking you. You shouldn't have crossed him.",
+    "a_little_more_bandits_than_usual": " By killing bandits in such numbers, you risk creating a shortage of personnel in Grimlarn.",
+    "ogre_baron": "Do not expect anything good from the rich. Even the Empire couldn't get rid of these bastards' passion for hunting people and strange gastronomic experiments..",
+    "elite_prince_fellows": "Another batch of iron queers who are hunting for your beautiful head.",
+    "unfriendly_hound": "This dog is not a good boy and not a friend to you.",
+    "brother_damour": "The local leader of the order of Sacred-haters, looking for a way to kill them forever.",
+    "hungry_brood": "A large and venomous spider is a problem in itself, but if they breed, then the problem becomes a disaster.",
+    "giant_wasp": "The stench of ancient evil is spreading more and more through the Forbidden Swamps. The lair of predatory wasps, which breed without measure, has become a problem for all local residents and monsters.",
+    "moonhunter": "There are cases when a demolder, demoted to the archers, experiences both a military campaign and attacks from his fellow tribesmen. They are forbidden to throw in their bows and return to the foot formation; there is no way back, but this does not mean that demolder cannot regain the honor of a great warrior. Moonhunters attach blades to their hands and go to fight in the front ranks, hoping their arrows will run out faster than those of their enemies, and they will be able to show what they are capable of.",
+    "gelded_one": "Even demolders have scary stories. “One day the sun shone so brightly over the great sea, and so much blood was shed that the Runebearer was blinded, but continued to slay His enemies. After the battle, He was the only one left alive, but He couldn't find the lost rune, and He's still searching for it to this day, losing honor and cursing, howling day and night.”",
+    "runebearer": "The most skillful, brave and invincible demolder warriors were honored to become Runebearers. The Emperor's Rune had to be watered with the blood of enemies every day, and the Runebearers performed this duty with honor and tirelessly. So they glorified their god until He betrayed them.",
+    "demolder_berserk": "All the demolders wanted to be warriors and kill for the glory of their Master, but not all of them wanted to be soldiers and follow orders. The demolders who did not want to listen to orders, had only two routes they could take – to die in battle against their more compliant tribesmen and become their dinner, or to go ahead of the army as a berserker. Berserkers were obliged to challenge the strongest enemy fighters and take on all the attacks in the front ranks, and could only survive by winning over and over again.",
+    "swamp_troll": "One of the last of his kind. Once they caused serious problems to people, but almost all of them were exterminated back at the birth of the Empire.",
+    "infected_deadman": "Necroverms are able to infect recently deceased or weakened organisms and turn them into their creepy puppets. In search of fresh flesh, these wormy killing machines know no pity or fatigue.",
+    "infected_deadman_junior": "Disgusting undead bodies controlled by worms from a distant world. They can infect those still living, so wash your hands as soon as you’ve dealt with one.",
+    "mother_miolania": "An ancient monster who once left her native ocean to avoid becoming a victim of something bigger. Over the course of hundreds of thousands of sunsets, she has become huge and unwieldy. The stench emanating from her can be sensed for many kilometers. Her body is covered with parasites and insects, and the swamp in which she has settled is completely covered with the bones of the unfortunates who were unlucky enough to find their end in her stomach. Mother Miolania is so ancient that many inhabitants of the forest worship her as a living deity and prefer to feed her with fresh meat, so she does not start hunting again.",
+    "lost_brother_damour": "Look who's back from the dead. Whaat?",
+    "bard_chick": "Bards often become conduits of dark forces, so people are afraid and avoid them.",
+    "wasp_queen": "A fat flying thing the size of a cow. Looks pretty dangerous.",
+    "cultist_boy_of_mother": "The Cult of the Mother offers a good career for young professionals from Grimlarn. A stylish Gothic uniform is issued upon employment.",
+    "cultist_girl_of_mother": "The Cult of the Mother offers a good career for young professionals from Grimlarn. A stylish Gothic uniform is issued upon employment.",
+    "hakkamanda": "An old forest witch from whom all the Spirits of the Forest turned away because of her misdeeds. The one who was supposed to show the way to young girls is now tricking them into the mouth of a giant monster.",
+    "meladzi": "Once he was a nice man, owned a mill, loved to sing, eat good food and seduce beautiful women. Now he is a terrible cook, making dishes from human flesh for his beloved monster.",
+    "pug_panin": "A middle-aged aristocrat who became famous as a transvestite and a dog f..cker.",
+    "legion_commander_dogwan": "An ancient demolder, now commander of the remnants of the Legion.",
+    "rune_king_viswanathan": "An outcast demolder, a deserter of the Legion and a traitor to the Code of Honor.",
+    "girls_after_party": "A few drunk women in search of adventure."
+  },
+  "header-notifications": {
+    "level-up": {
+      "title": "Level Up",
+      "desc": "You have earned enough experience to level up your hero. Go to the hero page to upgrade."
+    },
+    "reinforcement": {
+      "title": "Reinforcement",
+      "desc": "Your hero earned some rewards while being in reinforcement. Go and claim it."
+    },
+    "repair": {
+      "title": "Repair",
+      "desc": "Some of your items were broken. Go to your inventory to repair them."
+    }
+  },
+  "life-chances": {
+    "title": "Life Chances",
+    "desc": "Ability to avoid permanent death. When your life chance counter reaches zero, a character dies permanently. Life chances can be restored by being very lucky and receiving them as rewards."
+  },
+  "swap-coins-dialog": {
+    "title": "Swap tokens",
+    "sell": "Sell",
+    "buy": "Buy"
+  },
+  "account-dialog": {
+    "title": "Account",
+    "network": "Network"
+  },
+  "block-app-buy-coins": {
+    "test-net": "To use blockchain, you need {{ net }} coins. Get free coins <a href='{{ faucetLink }}' target=\"_blank\">here</a> or from other online sources.",
+    "main-net": "To use the {{ net }}, you'll need {{ net }} token for blockchain transactions. You can purchase {{ net }} tokens on a reputable cryptocurrency exchange that is available in your country and then transfer them to your wallet address. It's important to exercise caution as these tokens have real-world value."
+  },
+  "heroes-classes-short-description": {
+    "thrall": "Thrall, a highly resilient hero, is for those who seek a durable character but are ready to face challenges due to his inability to speak.",
+    "savage": "Savage is the perfect choice for players who value brute strength and direct combat over cunning and strategy.",
+    "mage": "Mage is hero that is very difficult to play. Choose only if you have enough skills and magic items in your inventory and have deep gameplay understanding.",
+    "assassin": "Assassin is designed for stealth pros, offering a gameplay experience that emphasizes dexterity.",
+    "ghost": "Ghost is a F2P demo hero, ideal for those wanting to try the game without spending money, providing a sneak peek into Sacra's enigmatic world.",
+    "hammergina": "Like many of Straban's vassals, she took an oath to find the murderer of the king and punish her. Her journey has taken her far from home, into the wild lands of Grimlarn. She has buried all her friends, but will not retreat from her mission."
+  },
+  "hero-dead-page": {
+    "title": "Your Hero lost 1 life chance.",
+    "buttons": {
+      "heroes": "Let's try again!"
+    }
+  },
+  "hero-one-hp-dialog": {
+    "title": "Low HP Warning",
+    "desc": "Your hero has only 1 HP remaining.<br/>You can drink a healing potion or choose another hero. <br />Otherwise, there's a high chance you will die in the next adventure.<br/> Are you sure you want to proceed?",
+    "buttons": {
+      "heroes": "Let's try again!"
+    }
+  },
+  "hero-stats-dialog": {
+    "title": "Hero Stats"
+  },
+  "bars-desc": {
+    "desc": {
+      "exp": "Experience points. Earned by defeating enemies and essential for leveling up a hero.",
+      "hp": "Represents the hero's standard of living. HP does not regenerate over time.",
+      "mp": "Magical energy required to activate skills during battles and does not regenerate with time.",
+      "enemy": "Represents the enemy's standard of living. HP does not regenerate over time."
+    },
+    "name": {
+      "exp": "Experience",
+      "hp": "Health Points",
+      "mp": "Magical energy",
+      "enemy": "Enemy Health Points"
+    }
+  }
+}

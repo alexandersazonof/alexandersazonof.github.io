@@ -1,0 +1,327 @@
+@use 'common';
+@use 'shadows';
+
+$_path: common.$buttons-path;
+
+.app-btn-max {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 82px;
+  height: 50px;
+
+  background-position: 0px -13px;
+  background-image: url($_path + 'other/max/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/max/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/max/disabled.png');
+  }
+}
+
+.app-btn-swap {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 101px;
+  height: 68px;
+
+  background-position: center;
+  background-image: url($_path + 'other/swap/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/swap/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/swap/disabled.png');
+  }
+}
+
+.app-btn-copy {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 76px;
+  height: 76px;
+
+  background-image: url($_path + 'other/copy/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/copy/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/copy/disabled.png');
+  }
+}
+
+.app-btn-exit {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 76px;
+  height: 76px;
+
+  background-image: url($_path + 'other/exit/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/exit/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/exit/disabled.png');
+  }
+}
+
+.app-btn-link {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 76px;
+  height: 76px;
+
+  background-image: url($_path + 'other/link/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/link/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/link/disabled.png');
+  }
+}
+
+.app-btn-view-mode-icon {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 80px;
+  height: 79px;
+
+  background-image: url($_path + 'other/view-mode-icon/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/view-mode-icon/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/view-mode-icon/disabled.png');
+  }
+}
+
+.app-btn-view-mode-list {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 80px;
+  height: 79px;
+
+  background-image: url($_path + 'other/view-mode-list/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/view-mode-list/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/view-mode-list/disabled.png');
+  }
+}
+
+.app-btn-filter {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 80px;
+  height: 79px;
+
+  background-image: url($_path + 'other/filter/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/filter/default.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/filter/disabled.png');
+  }
+}
+
+.app-btn-trash {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 80px;
+  height: 79px;
+
+  background-image: url($_path + 'other/trash/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/trash/pressed.png');
+  }
+
+  &:hover:not(:disabled) {
+    background-image: url($_path + 'other/trash/hover.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/trash/disabled.png');
+  }
+}
+
+.app-btn-stop {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 80px;
+  height: 79px;
+
+  background-image: url($_path + 'other/stop/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/stop/pressed.png');
+  }
+
+  &:hover:not(:disabled) {
+    background-image: url($_path + 'other/stop/hover.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/stop/disabled.png');
+  }
+}
+
+.app-btn-refresh {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 80px;
+  height: 79px;
+
+  background-image: url($_path + 'other/refresh/default.png');
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'other/refresh/pressed.png');
+  }
+
+  &:hover:not(:disabled) {
+    background-image: url($_path + 'other/refresh/hover.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/refresh/disabled.png');
+  }
+}
+
+.app-btn-key {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 80px;
+  height: 79px;
+
+  background-image: url($_path + 'other/key/default.png');
+
+  &:active:not(:disabled):not(.disabled) {
+    background-image: url($_path + 'other/key/pressed.png');
+  }
+
+  &:hover:not(:disabled):not(.disabled) {
+    background-image: url($_path + 'other/key/hover.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/key/disabled.png');
+  }
+}
+
+.app-btn-thunderbolt {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 80px;
+  height: 79px;
+
+  background-image: url($_path + 'other/thunderbolt/default.png');
+
+  &:active:not(:disabled):not(.disabled) {
+    background-image: url($_path + 'other/thunderbolt/pressed.png');
+  }
+
+  &:hover:not(:disabled):not(.disabled) {
+    background-image: url($_path + 'other/thunderbolt/hover.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/thunderbolt/disabled.png');
+  }
+}
+
+.app-btn-token-banner-1 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 417px;
+  height: 337px;
+  padding-bottom: 135px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  background-image: url($_path + 'other/token-banner/1-1/default.avif');
+  background-position-y: -230px;
+
+  &:active:not(:disabled):not(.disabled) {
+    background-image: url($_path + 'other/token-banner/1-1/pressed.avif');
+  }
+
+  &:hover:not(:disabled):not(.disabled) {
+    background-image: url($_path + 'other/token-banner/1-1/hover.avif');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/token-banner/1-1/disabled.avif');
+  }
+}
+
+.app-btn-token-banner-2 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: 417px;
+  height: 337px;
+  padding-bottom: 135px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  background-image: url($_path + 'other/token-banner/2-1/default.avif');
+  background-position-y: -264px;
+
+  &:active:not(:disabled):not(.disabled) {
+    background-image: url($_path + 'other/token-banner/2-1/pressed.avif');
+  }
+
+  &:hover:not(:disabled):not(.disabled) {
+    background-image: url($_path + 'other/token-banner/2-1/hover.avif');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'other/token-banner/2-1/disabled.avif');
+  }
+}

@@ -1,0 +1,264 @@
+$app-item-slots-huge_size: 188px;
+$app-item-slots-middle_size: 144px;
+$app-item-slots-middle-small_size: 114px;
+$app-item-slots-small_size: 76px;
+$app-item-slots-attack-middle-small_size: 152px;
+
+.app-item-slots {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.app-item-slots-huge {
+  @extend .app-item-slots;
+  width: $app-item-slots-huge_size;
+  height: $app-item-slots-huge_size;
+  min-width: $app-item-slots-huge_size;
+  min-height: $app-item-slots-huge_size;
+}
+.app-item-slots-middle {
+  @extend .app-item-slots;
+  width: $app-item-slots-middle_size;
+  height: $app-item-slots-middle_size;
+  min-width: $app-item-slots-middle_size;
+  min-height: $app-item-slots-middle_size;
+}
+.app-item-slots-middle-small {
+  @extend .app-item-slots;
+  width: $app-item-slots-middle-small_size;
+  height: $app-item-slots-middle-small_size;
+  min-width: $app-item-slots-middle-small_size;
+  min-height: $app-item-slots-middle-small_size;
+}
+.app-item-slots-small {
+  @extend .app-item-slots;
+  width: $app-item-slots-small_size;
+  height: $app-item-slots-small_size;
+  min-width: $app-item-slots-small_size;
+  min-height: $app-item-slots-small_size;
+}
+
+.app-item-slots-attack-middle-small {
+  @extend .app-item-slots;
+  width: $app-item-slots-attack-middle-small_size;
+  height: $app-item-slots-attack-middle-small_size;
+  min-width: $app-item-slots-attack-middle-small_size;
+  min-height: $app-item-slots-attack-middle-small_size;
+}
+
+.app-item-slots-huge_active {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/active.avif');
+}
+.app-item-slots-huge_active-plus {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/active-plus.avif');
+}
+.app-item-slots-huge_aquamarine {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/aquamarine.avif');
+}
+.app-item-slots-huge_aquamarine-skill {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/aquamarine-skill.avif');
+}
+.app-item-slots-huge_aquamarine-skill-attack {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/aquamarine-skill-attack.avif');
+}
+.app-item-slots-huge_blue {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/blue.avif');
+}
+.app-item-slots-huge_empty {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/empty.avif');
+}
+.app-item-slots-huge_gold {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/gold.avif');
+}
+.app-item-slots-huge_gray {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/gray.avif');
+}
+.app-item-slots-huge_green {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/green.avif');
+}
+.app-item-slots-huge_purple {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/purple.avif');
+}
+.app-item-slots-huge_unable {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/unable.avif');
+}
+.app-item-slots-huge_unable-skill {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/huge/unable-skill.avif');
+}
+
+.app-item-slots-middle_active {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/active.avif');
+}
+.app-item-slots-middle_active-plus {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/active-plus.avif');
+}
+.app-item-slots-middle_aquamarine {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/aquamarine.avif');
+}
+.app-item-slots-middle_aquamarine-skill {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/aquamarine-skill.avif');
+}
+.app-item-slots-middle_aquamarine-skill-attack {
+  @extend .app-item-slots-huge;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/aquamarine-skill-attack.avif');
+}
+.app-item-slots-middle_blue {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/blue.avif');
+}
+.app-item-slots-middle_empty {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/empty.avif');
+}
+.app-item-slots-middle_gold {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/gold.avif');
+}
+.app-item-slots-middle_gray {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/gray.avif');
+}
+.app-item-slots-middle_green {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/green.avif');
+}
+.app-item-slots-middle_purple {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/purple.avif');
+}
+.app-item-slots-middle_unable {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/unable.avif');
+}
+.app-item-slots-middle_unable-skill {
+  @extend .app-item-slots-middle;
+  background-image: url('/assets/images/ui/frames/item-slots/middle/unable-skill.avif');
+}
+
+.app-item-slots-middle-small_active {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/active.avif');
+}
+.app-item-slots-middle-small_active-plus {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/active-plus.avif');
+}
+.app-item-slots-middle-small_aquamarine {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/aquamarine.avif');
+}
+.app-item-slots-middle-small_aquamarine-skill {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/aquamarine-skill.avif');
+}
+.app-item-slots-middle-small_aquamarine-skill-attack {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/aquamarine-skill-attack.avif');
+}
+.app-item-slots-middle-small_blue {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/blue.avif');
+}
+.app-item-slots-middle-small_empty {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/empty.avif');
+}
+.app-item-slots-middle-small_gold {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/gold.avif');
+}
+.app-item-slots-middle-small_gray {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/gray.avif');
+}
+.app-item-slots-middle-small_green {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/green.avif');
+}
+.app-item-slots-middle-small_purple {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/purple.avif');
+}
+.app-item-slots-middle-small_unable {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/unable.avif');
+}
+.app-item-slots-middle-small_unable-skill {
+  @extend .app-item-slots-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/middle-small/unable-skill.avif');
+}
+
+.app-item-slots-small_active {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/active.avif');
+}
+.app-item-slots-small_active-plus {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/active-plus.avif');
+}
+.app-item-slots-small_aquamarine {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/aquamarine.avif');
+}
+.app-item-slots-small_aquamarine-skill {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/aquamarine-skill.avif');
+}
+.app-item-slots-small_aquamarine-skill-attack {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/aquamarine-skill-attack.avif');
+}
+.app-item-slots-small_blue {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/blue.avif');
+}
+.app-item-slots-small_empty {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/empty.avif');
+}
+.app-item-slots-small_gold {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/gold.avif');
+}
+.app-item-slots-small_gray {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/gray.avif');
+}
+.app-item-slots-small_green {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/green.avif');
+}
+.app-item-slots-small_purple {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/purple.avif');
+}
+.app-item-slots-small_unable {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/unable.avif');
+}
+.app-item-slots-small_unable-skill {
+  @extend .app-item-slots-small;
+  background-image: url('/assets/images/ui/frames/item-slots/small/unable-skill.avif');
+}
+
+.app-item-slots-attack-middle-small_empty {
+  @extend .app-item-slots-attack-middle-small;
+  background-image: url('/assets/images/ui/frames/item-slots/attacking/empty.avif');
+}

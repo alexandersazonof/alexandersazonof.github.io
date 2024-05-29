@@ -1,0 +1,227 @@
+@use 'variables';
+@use 'colors';
+
+$buttons-path: '/assets/images/ui/buttons/';
+$arrows-path: '/assets/images/ui/icons/arrows/';
+$button-height-standard: 94px;
+$button-height-huge: 150px;
+$font-size-scale-metamask: 0.38;
+$font-size-default-for-metamask: 14px; // 38% of standard in Metamask
+$font-size-medium-for-metamask: 16px; // 38% of medium in Metamask
+$font-size-large-for-metamask: 22px; // 38% of huge in Metamask
+$font-size-biggest-for-metamask: 28px; // 38% of huge in Metamask
+$font-size-small-for-metamask: 12px; // 38% of huge in Metamask
+$font-size-medium-small-for-metamask: 11px; // 38% of huge in Metamask
+$font-size-tiny-for-metamask: 10px; // 38% of huge in Metamask
+$font-size-smallest-for-metamask: 8px; // 38% of huge in Metamask
+$font-size-micro-for-metamask: 7px; // 38% of huge in Metamask
+$button-arrow-x: 18px;
+$button-arrow-y: 13px;
+
+@mixin btn-font-size($font-size) {
+  font-size: $font-size;
+
+  //&:active:not(:disabled) {
+  //  font-size: #{$font-size * 0.95};
+  //}
+}
+
+.app-btn {
+  white-space: nowrap;
+  user-select: none;
+  background-repeat: no-repeat;
+}
+
+.btn-disabled-info {
+  background-image: url(/assets/images/ui/icons/other/info-holder-question.png);
+  background-repeat: no-repeat;
+  background-size: 61px;
+  height: 61px;
+  width: 61px;
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+  //filter: brightness(3);
+}
+
+.app-btn-standard {
+  @extend .app-btn;
+  height: $button-height-standard;
+  font-family: variables.$font-name-header;
+  color: colors.$btn-main;
+
+  &.app-btn_active,
+  &.app-btn_highlight {
+    color: colors.$yellow-fire;
+    text-shadow: 0 0 16px #ff0000;
+  }
+
+  .btn-disabled-info {
+    display: none;
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    //opacity: 0.5;
+    color: #796b5d;
+
+    .btn-disabled-info {
+      display: flex;
+      opacity: 1;
+    }
+  }
+}
+
+.app-btn-huge {
+  @extend .app-btn;
+  height: $button-height-huge;
+  font-family: variables.$font-name-header;
+  color: colors.$btn-main;
+
+  &.app-btn_active,
+  &.app-btn_highlight {
+    color: colors.$yellow-fire;
+    text-shadow: 0 0 24px #ff0000;
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    //opacity: 0.5; // todo use appropriate background
+    color: #796b5d;
+  }
+}
+
+.app-btn-biggest_font-size {
+  @include btn-font-size(variables.$font-size-biggest);
+}
+
+.app-btn-huge_font-size {
+  @include btn-font-size(variables.$font-size-large);
+}
+
+.app-btn-medium-small_font-size {
+  @include btn-font-size(variables.$font-size-medium-small);
+}
+
+.app-btn-small_font-size {
+  @include btn-font-size(variables.$font-size-small);
+}
+
+.app-btn-tiny_font-size {
+  @include btn-font-size(variables.$font-size-tiny);
+}
+
+.app-btn-smallest_font-size {
+  @include btn-font-size(variables.$font-size-smallest);
+}
+
+.app-btn-micro_font-size {
+  @include btn-font-size(variables.$font-size-micro);
+}
+
+.app-btn_font-size {
+  @include btn-font-size(variables.$font-size-default);
+}
+
+.app-btn-medium_font-size {
+  @include btn-font-size(variables.$font-size-medium);
+}
+
+::ng-deep {
+  .is-metamask .app-btn-biggest_font-size {
+    @include btn-font-size($font-size-biggest-for-metamask);
+  }
+
+  .is-metamask .app-btn-huge_font-size {
+    @include btn-font-size($font-size-large-for-metamask);
+  }
+
+  .is-metamask .app-btn-medium-small_font-size {
+    @include btn-font-size($font-size-medium-small-for-metamask);
+  }
+
+  .is-metamask .app-btn-small_font-size {
+    @include btn-font-size($font-size-small-for-metamask);
+  }
+
+  .is-metamask .app-btn_font-size {
+    @include btn-font-size($font-size-default-for-metamask);
+  }
+
+  .is-metamask .app-btn-medium_font-size {
+    @include btn-font-size($font-size-medium-for-metamask);
+  }
+
+  .is-metamask .app-btn-tiny_font-size {
+    @include btn-font-size($font-size-tiny-for-metamask);
+  }
+
+  .is-metamask .app-btn-smallest_font-size {
+    @include btn-font-size($font-size-smallest-for-metamask);
+  }
+
+  .is-metamask .app-btn-micro_font-size {
+    @include btn-font-size($font-size-micro-for-metamask);
+  }
+}
+
+.is-metamask .app-btn-biggest_font-size {
+  @include btn-font-size($font-size-biggest-for-metamask);
+}
+
+.is-metamask .app-btn-huge_font-size {
+  @include btn-font-size($font-size-large-for-metamask);
+}
+
+.is-metamask .app-btn-medium-small_font-size {
+  @include btn-font-size($font-size-medium-small-for-metamask);
+}
+
+.is-metamask .app-btn-small_font-size {
+  @include btn-font-size($font-size-small-for-metamask);
+}
+
+.is-metamask .app-btn_font-size {
+  @include btn-font-size($font-size-default-for-metamask);
+}
+
+.is-metamask .app-btn-medium_font-size {
+  @include btn-font-size($font-size-medium-for-metamask);
+}
+
+.is-metamask .app-btn-tiny_font-size {
+  @include btn-font-size($font-size-tiny-for-metamask);
+}
+
+.is-metamask .app-btn-micro_font-size {
+  @include btn-font-size($font-size-micro-for-metamask);
+}
+
+.app-btns-row {
+  & > button {
+    // todo обозначить кнопки с выступами
+    &:not(:first-child) {
+      margin-left: 0;
+    }
+
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+}
+
+.app-btns-col {
+  & > button {
+    // todo обозначить кнопки с выступами
+    &:not(:first-child) {
+      margin-top: 0;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+}

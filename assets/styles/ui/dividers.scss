@@ -1,0 +1,82 @@
+// bolt
+
+$app-divider-bolt_size: 29px;
+.app-divider-bolt {
+  background-image: url('/assets/images/ui/dividers/bolt/bolt.png');
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: $app-divider-bolt_size $app-divider-bolt_size;
+
+  width: $app-divider-bolt_size;
+  height: $app-divider-bolt_size;
+
+  &--active {
+    background-image: url('/assets/images/ui/dividers/bolt/bolt-active.png');
+  }
+}
+
+$app-divider-group-of-bolts_size: 49px;
+.app-divider-group-of-bolts {
+  background-image: url('/assets/images/ui/dividers/bolt/group-of-bolts.png');
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: $app-divider-group-of-bolts_size $app-divider-group-of-bolts_size;
+
+  width: $app-divider-group-of-bolts_size;
+  height: $app-divider-group-of-bolts_size;
+}
+
+// scratches + border-v
+
+$app-divider-scratches-border-v_width: 369px;
+$app-divider-scratches-border-v_height: 58px;
+.app-divider-scratches-border-v-down {
+  background-image: url('/assets/images/ui/dividers/scratches-border-v/scratches-border-v-down.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: $app-divider-scratches-border-v_width $app-divider-scratches-border-v_height;
+
+  min-width: $app-divider-scratches-border-v_width;
+  padding-bottom: $app-divider-scratches-border-v_height;
+}
+.app-divider-scratches-border-v-up {
+  background-image: url('/assets/images/ui/dividers/scratches-border-v/scratches-border-v-up.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: $app-divider-scratches-border-v_width $app-divider-scratches-border-v_height;
+
+  min-width: $app-divider-scratches-border-v_width;
+  padding-top: $app-divider-scratches-border-v_height;
+}
+.app-divider-scratches-border-bolt {
+  background-image: url('/assets/images/ui/dividers/scratches-border-v/scratches-border-bolt.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: $app-divider-scratches-border-v_width 27px;
+  padding-bottom: 27px;
+  margin-top: -12px;
+}
+
+$app-divider-scratches-border-v-medium_width: 592px;
+$app-divider-scratches-border-v-medium_height: 43px;
+.app-divider-scratches-border-v-medium-down {
+  background-image: url('/assets/images/ui/dividers/scratches-border-v/scratches-border-v-medium-down.png');
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: $app-divider-scratches-border-v-medium_width $app-divider-scratches-border-v-medium_height;
+
+  min-width: $app-divider-scratches-border-v-medium_width;
+  padding-bottom: $app-divider-scratches-border-v-medium_height;
+}
+.app-divider-scratches-border-v-medium-up {
+  background-image: url('/assets/images/ui/dividers/scratches-border-v/scratches-border-v-medium-up.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: $app-divider-scratches-border-v-medium_width $app-divider-scratches-border-v-medium_height;
+
+  min-width: $app-divider-scratches-border-v-medium_width;
+  padding-top: $app-divider-scratches-border-v-medium_height;
+}

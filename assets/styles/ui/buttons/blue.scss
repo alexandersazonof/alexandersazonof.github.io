@@ -1,0 +1,430 @@
+@use 'common';
+@use 'shadows';
+
+$_path: common.$buttons-path;
+
+$app-btn-blue-1_width: 234px;
+.app-btn-blue-1 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-1_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/1/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/1/active.avif'), url($_path + 'blue/1/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/1/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/1/active.avif'), url($_path + 'blue/1/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/1/disabled.avif');
+  }
+}
+
+$app-btn-blue-2_width: 263px;
+.app-btn-blue-2 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-2_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/2/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/2/active.avif'), url($_path + 'blue/2/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/2/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/2/active.avif'), url($_path + 'blue/2/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/2/disabled.avif');
+  }
+}
+
+$app-btn-blue-2-show-list_width: 259px;
+.app-btn-blue-2-show-list {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-2-show-list_width;
+  margin: 0 0 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/2-show-list/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/2-show-list/active.avif'), url($_path + 'blue/2-show-list/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/2-show-list/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/2-show-list/active.avif'), url($_path + 'blue/2-show-list/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/2-show-list/disabled.avif');
+  }
+}
+
+$app-btn-blue-3_width: 444px;
+.app-btn-blue-3 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-3_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/3/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/3/active.avif'), url($_path + 'blue/3/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/3/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/3/active.avif'), url($_path + 'blue/3/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/3/disabled.avif');
+  }
+}
+
+$app-btn-blue-4-2_width: 542px;
+.app-btn-blue-4-2 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-4-2_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/4-2/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/4-2/active.avif'), url($_path + 'blue/4-2/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/4-2/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/4-2/active.avif'), url($_path + 'blue/4-2/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/4-2/disabled.avif');
+  }
+}
+
+$app-btn-blue-4-1_width: 542px;
+.app-btn-blue-4-1 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-4-1_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/4-1/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/4-1/active.avif'), url($_path + 'blue/4-1/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/4-1/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/4-1/active.avif'), url($_path + 'blue/4-1/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/4-1/disabled.avif');
+  }
+}
+
+$app-btn-blue-inventory_width: 333px;
+.app-btn-blue-inventory {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-inventory_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/inventory/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/inventory/active.avif'), url($_path + 'blue/inventory/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/inventory/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/inventory/active.avif'), url($_path + 'blue/inventory/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/inventory/disabled.avif');
+  }
+}
+
+$app-btn-blue-equip_width: 234px;
+.app-btn-blue-equip {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-equip_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/for-item-info-page-special/equip/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/for-item-info-page-special/equip/active.avif'),
+      url($_path + 'blue/for-item-info-page-special/equip/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/for-item-info-page-special/equip/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/for-item-info-page-special/equip/active.avif'),
+        url($_path + 'blue/for-item-info-page-special/equip/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/for-item-info-page-special/equip/disabled.avif');
+  }
+}
+
+$app-btn-blue-forge_width: 234px;
+.app-btn-blue-forge {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-forge_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/for-item-info-page-special/forge/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/for-item-info-page-special/forge/active.avif'),
+      url($_path + 'blue/for-item-info-page-special/forge/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/for-item-info-page-special/forge/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/for-item-info-page-special/forge/active.avif'),
+        url($_path + 'blue/for-item-info-page-special/forge/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/for-item-info-page-special/forge/disabled.avif');
+  }
+}
+
+$app-btn-blue-marketplace_width: 234px;
+.app-btn-blue-marketplace {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-marketplace_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/for-item-info-page-special/marketplace/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/for-item-info-page-special/marketplace/active.avif'),
+      url($_path + 'blue/for-item-info-page-special/marketplace/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/for-item-info-page-special/marketplace/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/for-item-info-page-special/marketplace/active.avif'),
+        url($_path + 'blue/for-item-info-page-special/marketplace/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/for-item-info-page-special/marketplace/disabled.avif');
+  }
+}
+
+$app-btn-blue-salvage_width: 234px;
+.app-btn-blue-salvage {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-salvage_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/for-item-info-page-special/salvage/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/for-item-info-page-special/salvage/active.avif'),
+      url($_path + 'blue/for-item-info-page-special/salvage/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/for-item-info-page-special/salvage/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/for-item-info-page-special/salvage/active.avif'),
+        url($_path + 'blue/for-item-info-page-special/salvage/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/for-item-info-page-special/salvage/disabled.avif');
+  }
+}
+
+$app-btn-blue-augment_width: 234px;
+.app-btn-blue-augment {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-augment_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/for-item-info-page-special/augment/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/for-item-info-page-special/augment/active.avif'),
+      url($_path + 'blue/for-item-info-page-special/augment/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/for-item-info-page-special/augment/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/for-item-info-page-special/augment/active.avif'),
+        url($_path + 'blue/for-item-info-page-special/augment/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/for-item-info-page-special/augment/disabled.avif');
+  }
+}
+
+$app-btn-blue-reinforcement_width: 407px;
+.app-btn-blue-reinforcement {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-reinforcement_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/reinforcement/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/reinforcement/active.avif'), url($_path + 'blue/reinforcement/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/reinforcement/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/reinforcement/active.avif'), url($_path + 'blue/reinforcement/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/reinforcement/disabled.avif');
+  }
+}
+
+$app-btn-blue-inventory-1_width: 333px;
+.app-btn-blue-inventory-1 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-inventory_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/inventory-1/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/inventory-1/active.avif'), url($_path + 'blue/inventory-1/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/inventory-1/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/inventory-1/active.avif'), url($_path + 'blue/inventory-1/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/inventory-1/disabled.avif');
+  }
+}
+
+$app-btn-blue-inventory-2_width: 333px;
+.app-btn-blue-inventory-2 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-inventory_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/inventory-2/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/inventory-2/active.avif'), url($_path + 'blue/inventory-2/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/inventory-2/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/inventory-2/active.avif'), url($_path + 'blue/inventory-2/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/inventory-2/disabled.avif');
+  }
+}
+
+$app-btn-blue-1-2_width: 234px;
+.app-btn-blue-1-2 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-blue-1-2_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'blue/1-2/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'blue/1-2/active.avif'), url($_path + 'blue/1-2/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'blue/1-2/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'blue/1-2/active.avif'), url($_path + 'blue/1-2/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'blue/1-2/disabled.avif');
+  }
+}

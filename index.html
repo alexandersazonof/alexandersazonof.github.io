@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <title>Sacra: Falling of Myrd</title>
+    <base href="/">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" href="favicon-32x32.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#1976d2">
+
+    <script type="text/javascript">
+      const href = window.location.href;
+
+      if (href.toLowerCase().indexOf('error=access_denied') >= 0) {
+        window.location.href = '/confirm.html';
+      }
+
+      async function getVersion() {
+        const response = await fetch(`/version.json?v=${Date.now()}`);
+        const versionJson = await response.json();
+        const { version } = versionJson;
+
+        window.sacraGameVersion = version;
+
+        if (localStorage.getItem('TETU_GAME_VERSION')) {
+          const lsVersion = localStorage.getItem('TETU_GAME_VERSION');
+
+          localStorage.setItem('TETU_GAME_VERSION', version);
+
+          if (Number(version) !== Number(lsVersion)) {
+            const search = window.location.search;
+
+            window.location = `${window.location.origin}/index.html?v=${version}`;
+            window.location = `${window.location.origin}/${search}`;
+          }
+        } else {
+          localStorage.setItem('TETU_GAME_VERSION', version);
+
+          const search = window.location.search;
+
+          window.location = `${window.location.origin}/index.html?v=${version}`;
+          window.location = `${window.location.origin}/${search}`;
+        }
+
+        console.log(`app version: ${version}`);
+      }
+
+      getVersion();
+
+      fetch('/assets/i18n/en.json');
+
+      document.write("<script type='text/javascript' src='images-mm.js?v=" + Date.now() + "'><\/script>");
+      document.write("<script type='text/javascript' src='images.js?v=" + Date.now() + "'><\/script>");
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '327511132036975');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=327511132036975&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+  <style>@charset "UTF-8";.game-preloader{position:absolute;width:100%;height:100%;background:#141414;font-size:14px;font-family:sans-serif;color:#c4ad8e;text-align:center;z-index:999999}.game-preloader__line{position:absolute;bottom:0;height:5px;background:#dc3e3e;width:100%;transform:scaleX(0);transition:all .16s ease;filter:saturate(0)}.game-preloader__text{position:absolute;bottom:20px;left:50%;transform:translate(-50%);color:#dc3e3e;filter:saturate(0)}.game-preloader__logo{position:absolute;top:50%;left:50%;filter:saturate(0);transform:translate(-50%,-50%)}.game-preloader__images-container{display:none}@font-face{font-family:Cambria;font-weight:500;font-style:normal;src:url(cambria.8a7bb0cd52ff74ea.ttf) format("truetype")}@font-face{font-family:Cambria;font-weight:700;font-style:normal;src:url(\421 ambria_bold.cbc1d4a4c9a3e3fc.ttf) format("truetype")}@font-face{font-family:Cambria;font-weight:700;font-style:italic;src:url(Cambria_bold_italic.5573777a5df09c81.ttf) format("truetype")}*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;padding:0;font-family:Cambria,sans-serif;font-size:35px;-webkit-overflow-scrolling:touch}body{position:relative;overflow:hidden;font-family:Cambria,sans-serif;font-size:35px;font-weight:400;line-height:1.5;color:#c4ad8e;background:#141414;cursor:url(/assets/images/cursor/cursor-50.avif) 10 0,auto!important;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-touch-callout:none}</style><link rel="stylesheet" href="styles.e6020d78f43b21fa.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.e6020d78f43b21fa.css"></noscript></head>
+  <body>
+    <div class="game-preloader" id="game-preloader">
+      <div class="game-preloader__line" id="game-preloader-line"></div>
+
+      <div class="game-preloader__text" id="game-preloader-text">
+        Loading...
+      </div>
+
+      <img class="game-preloader__logo" id="game-preloader-logo" src="assets/images/ui/logo/logo_small.avif" alt="">
+    </div>
+
+    <div class="game-preloader__images-container" id="game-preloader__images-container"></div>
+
+    <script type="text/javascript" src="preloader.js"></script>
+
+    <app-root></app-root>
+    <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <script src="runtime.5546c28613118449.js" type="module"></script><script src="polyfills.9f2e0a24ae95e3a5.js" type="module"></script><script src="main.f1307171da038af8.js" type="module"></script>
+
+</body></html>

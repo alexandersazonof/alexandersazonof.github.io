@@ -1,0 +1,92 @@
+$text-primary: #1d1d1d; // toto remove color word
+$text-secondary: tint($text-primary, 20%); // #4A4A4A
+
+// [ Theme colors ]
+$theme-primary: #3a3a3a;
+$theme-secondary: #eaeaea;
+$theme-light: #fafafa;
+$theme-disabled: #cccccc;
+$theme-selected: #f5f7fa;
+$theme-border: #c4c4c4;
+
+$white: #ffffff;
+$black: #000000;
+$yellow-light: #c4ad8e;
+$yellow-fire: #dfa94e;
+$red-fire: #dc3e3e;
+$nickname: #d7a061;
+$caption: #a37c83;
+$speech: #accdb9;
+$negative-value: #dd6363;
+$positive-value: #a6a6a6;
+$mana: #8282f6;
+$enemy-name: #e03636;
+$bar-hp: #9af481;
+$bar-mp: #8282f6;
+$bar-exp: #ffda82;
+$bar-enemy: #fb9696;
+
+// [Dark theme]
+$dark-bg: #141414;
+$dark-font: rgba(255, 255, 255, 0.85);
+$dark-font-secondary: rgba(125, 125, 125, 0.85);
+$dark-line: #434343;
+
+// Buttons color
+$btn-main: $yellow-light;
+
+.color-enemy-name {
+  color: $enemy-name;
+}
+
+.color-negative-value {
+  color: $negative-value;
+}
+
+.color-positive-value {
+  color: $positive-value;
+}
+
+.color-mana {
+  color: $mana;
+}
+
+.color-red-fire {
+  color: $red-fire;
+}
+
+.color-yellow-fire {
+  color: $yellow-fire;
+}
+
+.color-nickname {
+  color: $nickname;
+}
+
+.color-caption {
+  color: $caption;
+}
+
+.bar-hp {
+  color: $bar-hp;
+}
+
+.bar-mp {
+  color: $bar-mp;
+}
+
+.bar-exp {
+  color: $bar-exp;
+}
+
+.bar-enemy {
+  color: $bar-enemy;
+}
+
+.color-try {
+  color: #d8ffd4;
+}
+
+.color-free {
+  color: #f9fff5;
+}

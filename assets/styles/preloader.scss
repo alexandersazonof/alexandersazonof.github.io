@@ -1,0 +1,43 @@
+.game-preloader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #141414;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #c4ad8e;
+  text-align: center;
+  z-index: 999999;
+
+  &__line {
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    background: #dc3e3e;
+    width: 100%;
+    transform: scaleX(0);
+    transition: all 0.16s ease;
+    filter: saturate(0);
+  }
+
+  &__text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #dc3e3e;
+    filter: saturate(0);
+  }
+
+  &__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: saturate(0);
+    transform: translate(-50%, -50%)
+  }
+
+  &__images-container {
+    display: none;
+  }
+}

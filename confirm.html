@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Sacra: Falling of Myrd</title>
+    <base href="/" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="favicon.ico" />
+    <link
+      rel="icon"
+      href="favicon-32x32.ico"
+      sizes="32x32" />
+    <link
+      rel="apple-touch-icon"
+      href="apple-touch-icon.png" />
+    <meta
+      name="theme-color"
+      content="#1976d2" />
+    <style>
+      @font-face {
+        font-family: 'Cambria';
+        font-weight: 500;
+        font-style: normal;
+        src: url('assets/fonts/cambria/cambria.ttf') format('truetype');
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Cambria', sans-serif;
+        font-size: 14px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      body {
+        position: relative;
+        overflow: hidden;
+        font-family: 'Cambria', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #c4ad8e;
+        background: #141414;
+
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -webkit-touch-callout: none;
+      }
+
+      .confirm-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .confirm-main__title {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+
+      .confirm-main__text {
+        margin-bottom: 20px;
+      }
+
+      .confirm-main__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      a {
+        color: #c4ad8e;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="confirm-main">
+      <img
+        width="200"
+        class="mobile-menu__logo pointer"
+        src="assets/images/ui/logo/logo-text.avif"
+        alt="logo2" />
+
+      <div class="confirm-main__title">Thank you for registering!</div>
+
+      <div class="confirm-main__text">
+        We've sent a confirmation link to your email address. <br />
+        Please check your inbox and click on the link to complete your registration. <br />
+        If you don't see the email within a few minutes, check your spam or junk folder.<br />
+      </div>
+
+      <div class="confirm-main__link">
+        <a href="/">Back to the main page</a>
+
+        <img
+          height="32"
+          width="auto"
+          src="assets/images/ui/icons/other/link.avif"
+          alt="discord" />
+      </div>
+    </div>
+  </body>
+</html>

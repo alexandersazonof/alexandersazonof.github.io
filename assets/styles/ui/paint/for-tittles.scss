@@ -1,0 +1,71 @@
+$app-paint-titles-1_height: 131px;
+
+$app-paint-titles-1-long_width: 468px;
+.app-paint-titles-1-long {
+  background-image: url('/assets/images/ui/paint/for-tittles/black-paint-1-long.avif');
+  background-size: $app-paint-titles-1-long_width $app-paint-titles-1_height;
+  background-repeat: no-repeat;
+  width: $app-paint-titles-1-long_width;
+  height: $app-paint-titles-1_height;
+
+  &_incompressible {
+    min-width: $app-paint-titles-1-long_width;
+    min-height: $app-paint-titles-1_height;
+  }
+}
+
+$app-paint-titles-1-middle_width: 359px;
+.app-paint-titles-1-middle {
+  background-image: url('/assets/images/ui/paint/for-tittles/black-paint-1-middle.avif');
+  background-size: $app-paint-titles-1-middle_width $app-paint-titles-1_height;
+  width: $app-paint-titles-1-middle_width;
+  height: $app-paint-titles-1_height;
+
+  &_incompressible {
+    min-width: $app-paint-titles-1-middle_width;
+    min-height: $app-paint-titles-1_height;
+  }
+}
+
+$app-paint-titles-1-small_width: 270px;
+.app-paint-titles-1-small {
+  background-image: url('/assets/images/ui/paint/for-tittles/black-paint-1-small.avif');
+  background-size: $app-paint-titles-1-small_width $app-paint-titles-1_height;
+  width: $app-paint-titles-1-small_width;
+  height: $app-paint-titles-1_height;
+
+  &_incompressible {
+    min-width: $app-paint-titles-1-small_width;
+    min-height: $app-paint-titles-1_height;
+  }
+}
+
+$app-paint-titles-2_height: 171px;
+
+$app-paint-titles-2-medium_width: 692px;
+.app-paint-titles-2-medium {
+  background-image: url('/assets/images/ui/paint/for-tittles/black-paint-2-medium.avif');
+  background-size: $app-paint-titles-2-medium_width $app-paint-titles-2_height;
+  width: $app-paint-titles-2-medium_width;
+  height: $app-paint-titles-2_height;
+
+  &_incompressible {
+    min-width: $app-paint-titles-2-medium_width;
+    min-height: $app-paint-titles-2_height;
+  }
+}
+
+$app-paint-titles-2-large_width: 956px;
+$app-paint-titles-2-large_height: 223px;
+.app-paint-titles-2-large {
+  background-image: url('/assets/images/ui/paint/for-market/black.png');
+  background-size: $app-paint-titles-2-large_width $app-paint-titles-2-large_height;
+  background-repeat: no-repeat;
+  width: $app-paint-titles-2-large_width;
+  height: $app-paint-titles-2-large_height;
+
+  &_incompressible {
+    min-width: $app-paint-titles-2-large_width;
+    min-height: $app-paint-titles-2-large_height;
+  }
+}

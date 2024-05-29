@@ -1,0 +1,422 @@
+@use 'common';
+@use 'shadows';
+
+$_path: common.$buttons-path;
+$_arrows_path: common.$arrows-path;
+
+$app-btn-square_width: 80px;
+$app-btn-square_height: 79px;
+
+.app-btn-square-arrow-down-frameless {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/arrow-down-frameless/default.png');
+
+  //&:active:not(:disabled):not(:disabled) {
+  //  background-image: url($_path + 'square/arrow-down-frameless/pressed.png');
+  //}
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/arrow-down-frameless/disabled.png');
+  }
+}
+
+.app-btn-square-arrow-up-frameless {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/arrow-up-frameless/default.png');
+
+  //&:active:not(:disabled):not(:disabled) {
+  //  background-image: url($_path + 'square/arrow-up-frameless/pressed.png');
+  //}
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/arrow-up-frameless/disabled.png');
+  }
+}
+
+.app-btn-square-arrow-down {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/arrow-down/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/arrow-down/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/arrow-down/disabled.png');
+  }
+}
+
+.app-btn-square-arrow-up {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/arrow-up/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/arrow-up/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/arrow-up/disabled.png');
+  }
+}
+
+.app-btn-square-arrow-left {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/arrow-left/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/arrow-left/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/arrow-left/disabled.png');
+  }
+}
+
+.app-btn-square-arrow-right {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/arrow-right/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/arrow-right/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/arrow-right/disabled.png');
+  }
+}
+
+.app-btn-square-arrow-left-huge {
+  @extend .app-btn, .shadow__button;
+
+  width: 204px;
+  height: 204px;
+  background-image: url($_path + 'square/arrow-left-huge/default.png');
+
+  &:hover:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/arrow-left-huge/hover.png');
+  }
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/arrow-left-huge/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/arrow-left-huge/disabled.png');
+  }
+}
+
+.app-btn-square-arrow-right-huge {
+  @extend .app-btn, .shadow__button;
+
+  width: 204px;
+  height: 204px;
+  background-image: url($_path + 'square/arrow-right-huge/default.png');
+
+  &:hover:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/arrow-right-huge/hover.png');
+  }
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/arrow-right-huge/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/arrow-right-huge/disabled.png');
+  }
+}
+
+.app-btn-square-cross {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/cross/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/cross/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/cross/disabled.png');
+  }
+}
+
+.app-btn-cross-light {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/cross-light/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/cross-light/default.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/cross-light/disabled.png');
+  }
+}
+
+.app-btn-square-plus {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/plus/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/plus/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/plus/disabled.png');
+  }
+
+  &--arrows {
+    background-image: url($_arrows_path + 'right.png');
+
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url($_arrows_path + 'right.png');
+    }
+
+    &.disabled,
+    &:disabled,
+    &:active.disabled {
+      background-image: url($_arrows_path + 'right-disabled.png');
+    }
+  }
+
+  &--minimal {
+    background-image: url($_path + 'square/plus-minimal/default.png');
+
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url($_path + 'square/plus-minimal/pressed.png');
+    }
+
+    &.disabled,
+    &:disabled,
+    &:active.disabled {
+      background-image: url($_path + 'square/plus-minimal/disabled.png');
+    }
+  }
+
+  &--all {
+    background-image: url($_arrows_path + 'right-all.png');
+
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url($_arrows_path + 'right-all.png');
+    }
+
+    &.disabled,
+    &:disabled,
+    &:active.disabled {
+      background-image: url($_arrows_path + 'right-all-disabled.png');
+    }
+  }
+}
+
+.app-btn-square-minus {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/minus/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/minus/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/minus/disabled.png');
+  }
+
+  &--arrows {
+    background-image: url($_arrows_path + 'left.png');
+
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url($_arrows_path + 'left.png');
+    }
+
+    &.disabled,
+    &:disabled,
+    &:active.disabled {
+      background-image: url($_arrows_path + 'left-disabled.png');
+    }
+  }
+
+  &--minimal {
+    background-image: url($_path + 'square/minus-minimal/default.png');
+
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url($_path + 'square/minus-minimal/pressed.png');
+    }
+
+    &.disabled,
+    &:disabled,
+    &:active.disabled {
+      background-image: url($_path + 'square/minus-minimal/disabled.png');
+    }
+  }
+
+  &--all {
+    background-image: url($_arrows_path + 'left-all.png');
+
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url($_arrows_path + 'left-all.png');
+    }
+
+    &.disabled,
+    &:disabled,
+    &:active.disabled {
+      background-image: url($_arrows_path + 'left-all-disabled.png');
+    }
+  }
+}
+
+.app-btn-square-down {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/minus/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/minus/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/minus/disabled.png');
+  }
+
+  &--arrows {
+    background-image: url($_arrows_path + 'down.png');
+
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url($_arrows_path + 'down.png');
+    }
+
+    &.disabled,
+    &:disabled,
+    &:active.disabled {
+      background-image: url($_arrows_path + 'down-disabled.png');
+    }
+  }
+}
+
+.app-btn-square-search {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/search/default.png');
+
+  &.pressed,
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/search/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/search/disabled.png');
+  }
+
+  &--small {
+    background-image: url(/assets/images/ui/icons/other/search.png);
+
+    &.pressed,
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url(/assets/images/ui/icons/other/search.png);
+    }
+  }
+}
+
+.app-btn-square-list {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/list/default.png');
+
+  &:active:not(:disabled):not(:disabled) {
+    background-image: url($_path + 'square/list/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/list/disabled.png');
+  }
+
+  &--small {
+    background-image: url(/assets/images/ui/icons/other/sort.png);
+
+    &.pressed,
+    &:active:not(:disabled):not(:disabled) {
+      background-image: url(/assets/images/ui/icons/other/sort.png);
+    }
+  }
+}
+
+.app-btn-square-frame {
+  @extend .app-btn, .shadow__button;
+
+  width: $app-btn-square_width;
+  height: $app-btn-square_height;
+  background-image: url($_path + 'square/frame/default.png');
+
+  &:active:not(:disabled):not(:disabled),
+  &:hover {
+    background-image: url($_path + 'square/frame/pressed.png');
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'square/frame/disabled.png');
+  }
+}

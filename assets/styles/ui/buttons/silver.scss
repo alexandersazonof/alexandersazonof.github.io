@@ -1,0 +1,124 @@
+@use 'common';
+@use 'shadows';
+@use 'ui/typography';
+@use 'colors';
+
+$_path: common.$buttons-path;
+
+$app-btn-silver-1_width: 229px;
+.app-btn-silver-1 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-silver-1_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'silver/1/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'silver/1/active.avif'), url($_path + 'silver/1/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'silver/1/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'silver/1/active.avif'), url($_path + 'silver/1/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'silver/1/disabled.avif');
+  }
+}
+
+$app-btn-silver-2_width: 261px;
+.app-btn-silver-2 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-silver-2_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'silver/2/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'silver/2/active.avif'), url($_path + 'silver/2/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'silver/2/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'silver/2/active.avif'), url($_path + 'silver/2/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'silver/2/disabled.avif');
+  }
+}
+
+$app-btn-silver-3_width: 369px;
+.app-btn-silver-3 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-silver-3_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'silver/3/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'silver/3/active.avif'), url($_path + 'silver/3/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'silver/3/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'silver/3/active.avif'), url($_path + 'silver/3/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'silver/3/disabled.avif');
+  }
+}
+
+$app-btn-silver-4_width: 514px;
+.app-btn-silver-4 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-silver-4_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'silver/4/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'silver/4/active.avif'), url($_path + 'silver/4/default.avif');
+  }
+
+  &.app-btn_active-jackpot {
+    @extend .text-shadow-positive;
+
+    color: colors.$yellow-fire;
+    height: 132px;
+    padding-bottom: 38px;
+    margin-bottom: -38px;
+    background-image: url($_path + 'silver/4/active-jackpot.avif'), url($_path + 'silver/4/default.avif');
+
+    &:active:not(:disabled) {
+      background-image: url($_path + 'silver/4/active-jackpot.avif'), url($_path + 'silver/4/default.avif');
+    }
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'silver/4/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'silver/4/active.avif'), url($_path + 'silver/4/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'silver/4/disabled.avif');
+  }
+}

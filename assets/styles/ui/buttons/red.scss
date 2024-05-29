@@ -1,0 +1,238 @@
+@use 'common';
+@use 'shadows';
+
+$_path: common.$buttons-path;
+
+$app-btn-red-1_width: 234px;
+.app-btn-red-1 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-red-1_width;
+  margin: 0 #{- common.$button-arrow-x};
+  background-image: url($_path + 'red/1/default.avif');
+
+  &.app-btn_active {
+    background-image: url($_path + 'red/1/active.avif'), url($_path + 'red/1/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/1/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/1/active.avif'), url($_path + 'red/1/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/1/disabled.avif');
+  }
+}
+
+$app-btn-red-1-2_width: 234px;
+.app-btn-red-1-2 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-red-1-2_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'red/1-2/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'red/1-2/active.avif'), url($_path + 'red/1-2/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/1-2/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/1-2/active.avif'), url($_path + 'red/1-2/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/1-2/disabled.avif');
+  }
+}
+
+$app-btn-red-2_width: 367px;
+.app-btn-red-2 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-red-2_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'red/2/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'red/2/active.avif'), url($_path + 'red/2/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/2/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/2/active.avif'), url($_path + 'red/2/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/2/disabled.avif');
+  }
+}
+
+$app-btn-red-3_width: 446px;
+.app-btn-red-3 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-red-3_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'red/3/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'red/3/active.avif'), url($_path + 'red/3/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/3/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/3/active.avif'), url($_path + 'red/3/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/3/disabled.avif');
+  }
+}
+
+$app-btn-red-4_width: 513px;
+.app-btn-red-4 {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-red-4_width;
+  margin: 0 #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'red/4/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'red/4/active.avif'), url($_path + 'red/4/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/4/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/4/active.avif'), url($_path + 'red/4/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/4/disabled.avif');
+  }
+}
+
+$app-btn-red-huge-1_width: 442px;
+.app-btn-red-huge-1 {
+  @extend .app-btn-huge, .shadow__button, .app-btn-medium_font-size;
+
+  width: $app-btn-red-huge-1_width;
+  margin: #{- common.$button-arrow-y} #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'red/huge-1/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'red/huge-1/active.avif'), url($_path + 'red/huge-1/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/huge-1/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/huge-1/active.avif'), url($_path + 'red/huge-1/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/huge-1/disabled.avif');
+  }
+}
+
+$app-btn-red-huge-2_width: 605px;
+.app-btn-red-huge-2 {
+  @extend .app-btn-huge, .shadow__button, .app-btn-huge_font-size;
+
+  width: $app-btn-red-huge-2_width;
+  margin: #{- common.$button-arrow-y} #{- common.$button-arrow-x};
+
+  background-image: url($_path + 'red/huge-2/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'red/huge-2/active.avif'), url($_path + 'red/huge-2/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/huge-2/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/huge-2/active.avif'), url($_path + 'red/huge-2/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/huge-2/disabled.avif');
+  }
+}
+
+$app-btn-red-huge-3_width: 530px;
+.app-btn-red-huge-3 {
+  @extend .app-btn-huge, .shadow__button, .app-btn-medium_font-size;
+
+  width: $app-btn-red-huge-3_width;
+  margin: #{- common.$button-arrow-y} #{- common.$button-arrow-x};
+  padding-bottom: 12px;
+
+  background-image: url($_path + 'red/huge-3/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'red/huge-3/active.avif'), url($_path + 'red/huge-3/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/huge-3/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/huge-3/active.avif'), url($_path + 'red/huge-3/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/huge-3/disabled.avif');
+  }
+}
+
+$app-btn-red-attack_width: 407px;
+.app-btn-red-attack {
+  @extend .app-btn-standard, .shadow__button, .app-btn_font-size;
+
+  width: $app-btn-red-attack_width;
+
+  background-image: url($_path + 'red/attack/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'red/attack/active.avif'), url($_path + 'red/attack/default.avif');
+  }
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'red/attack/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'red/attack/active.avif'), url($_path + 'red/attack/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'red/attack/disabled.avif');
+  }
+}

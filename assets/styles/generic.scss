@@ -1,0 +1,65 @@
+@use 'variables';
+@use 'colors';
+
+$bg-body: #ffffff;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: variables.$font-name-default;
+  font-size: variables.$font-size-default;
+  //cursor: none;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+  font-family: variables.$font-name-default;
+  font-size: variables.$font-size-default;
+  font-weight: 400;
+  line-height: 1.5;
+  color: colors.$yellow-light;
+  background: colors.$dark-bg;
+  cursor: url('/assets/images/cursor/cursor-50.avif') 10 0, auto !important;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-touch-callout: none;
+}
+
+button {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: variables.$font-name-header;
+  font-size: variables.$font-size-default;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  color: indianred;
+  cursor: url('/assets/images/cursor/cursor-50-active.avif') 10 0, auto !important;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

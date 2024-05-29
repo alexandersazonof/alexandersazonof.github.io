@@ -1,0 +1,85 @@
+@function tint($color, $percentage) {
+  @return mix(#fff, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+  @return mix(#000, $color, $percentage);
+}
+
+$window-width-design: 1600px;
+$window-width-default: 1080px;
+$app-padding-x: 46px;
+
+$main-width: 400px;
+$main-height: 1000px;
+
+// [Fonts]
+$font-name-default: 'Cambria', sans-serif;
+$font-name-header: SellYouSoul, serif;
+$font-size-default: 35px;
+$font-size-large: 56px;
+$font-size-biggest: 76px;
+$font-size-medium: 46px;
+$font-size-medium-small: 30px;
+$font-size-small: 28px;
+$font-size-tiny: 24px;
+$font-size-smallest: 18px;
+$font-size-micro: 16px;
+
+// [Layout step]
+$grid-offset-step: 4px;
+
+// [Animations]
+$animation-step: 160ms;
+
+.pointer {
+  user-select: none;
+  cursor: url('/assets/images/cursor/cursor-50-active.avif') 10 0, pointer;
+}
+
+.no-action {
+  user-select: none;
+  pointer-events: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+@keyframes button-process-animation {
+  from {
+    text-shadow: none;
+  }
+
+  to {
+    text-shadow: 0 0 16px #dfa94e;
+  }
+}
+
+.button-process-animation {
+  animation-duration: 1s;
+  animation-name: button-process-animation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.page-loader {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+// [Gaps]
+@for $i from 1 through 50 {
+  .gap-#{$i * 2} {
+    gap: #{$i * 2}px;
+  }
+}
+

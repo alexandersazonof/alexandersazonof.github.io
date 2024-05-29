@@ -1,0 +1,41 @@
+@use 'common';
+@use 'shadows';
+@use 'ui/typography';
+@use 'colors';
+
+$_path: common.$buttons-path;
+
+$app-btn-green-1_width: 807px;
+$app-btn-green-1_height: 362px;
+.app-btn-green-1 {
+  @extend .app-btn-standard, .shadow__button, .app-btn-biggest_font-size;
+
+  width: $app-btn-green-1_width;
+  height: $app-btn-green-1_height;
+  margin: 0 -68px;
+
+  background-image: url($_path + 'green/1/default.avif');
+  &.app-btn_active {
+    background-image: url($_path + 'green/1/active.avif'), url($_path + 'green/1/default.avif');
+  }
+
+  //&:hover:not(:disabled) {
+  //  background-image: url($_path + 'green/1/hover.avif');
+  //  &.app-btn_active {
+  //    background-image: url($_path + 'green/1/active.avif'), url($_path + 'green/1/hover.avif');
+  //  }
+  //}
+
+  &:active:not(:disabled) {
+    background-image: url($_path + 'green/1/pressed.avif');
+    &.app-btn_active {
+      background-image: url($_path + 'green/1/active.avif'), url($_path + 'green/1/pressed.avif');
+    }
+  }
+
+  &.disabled,
+  &:disabled,
+  &:active.disabled {
+    background-image: url($_path + 'green/1/disabled.avif');
+  }
+}
